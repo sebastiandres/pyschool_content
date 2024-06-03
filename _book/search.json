@@ -1,0 +1,162 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PySchool",
+    "section": "",
+    "text": "Sobre la PySchool\nLa PySchool es un proyecto para motivar a aprender el lenguaje de programación Python. Esta página contiene ejemplos autocontenidos.\nRealizado por el equipo de Python Chile, 2024.",
+    "crumbs": [
+      "Sobre la PySchool"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html",
+    "href": "taller_1/taller_1.html",
+    "title": "1  Python para todo",
+    "section": "",
+    "text": "1.1 Ejemplo 1\nPyodide-enabled code cell, using {pyodide-python}: This allows for completely executable code - the user can modify the code and execute it!\nDirect code:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#ejemplo-1",
+    "href": "taller_1/taller_1.html#ejemplo-1",
+    "title": "1  Python para todo",
+    "section": "",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#ejemplo-2",
+    "href": "taller_1/taller_1.html#ejemplo-2",
+    "title": "1  Python para todo",
+    "section": "1.2 Ejemplo 2",
+    "text": "1.2 Ejemplo 2\nPyodide-enabled code cell, using {pyodide-python}: This allows for completely executable code - the user can modify the code and execute it!\nDirect code:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_2A/taller_2A.html",
+    "href": "taller_2A/taller_2A.html",
+    "title": "2  Ciencia tradicional",
+    "section": "",
+    "text": "2.1 Matemática\nPyodide-enabled code cell, using {pyodide-python}: This allows for completely executable code - the user can modify the code and execute it!\nDirect code:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Ciencia tradicional</span>"
+    ]
+  },
+  {
+    "objectID": "taller_2A/taller_2A.html#matemática",
+    "href": "taller_2A/taller_2A.html#matemática",
+    "title": "2  Ciencia tradicional",
+    "section": "",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Ciencia tradicional</span>"
+    ]
+  },
+  {
+    "objectID": "taller_2A/taller_2A.html#física",
+    "href": "taller_2A/taller_2A.html#física",
+    "title": "2  Ciencia tradicional",
+    "section": "2.2 Física",
+    "text": "2.2 Física\n…",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Ciencia tradicional</span>"
+    ]
+  },
+  {
+    "objectID": "taller_2A/taller_2A.html#estadística",
+    "href": "taller_2A/taller_2A.html#estadística",
+    "title": "2  Ciencia tradicional",
+    "section": "2.3 Estadística",
+    "text": "2.3 Estadística\n…",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Ciencia tradicional</span>"
+    ]
+  },
+  {
+    "objectID": "taller_2B/taller_2B.html",
+    "href": "taller_2B/taller_2B.html",
+    "title": "3  Programación",
+    "section": "",
+    "text": "3.1 Blabla\nPyodide-enabled code cell, using {pyodide-python}: This allows for completely executable code - the user can modify the code and execute it!\nDirect code:",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Programación</span>"
+    ]
+  },
+  {
+    "objectID": "taller_2B/taller_2B.html#blabla",
+    "href": "taller_2B/taller_2B.html#blabla",
+    "title": "3  Programación",
+    "section": "",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Programación</span>"
+    ]
+  },
+  {
+    "objectID": "taller_2C/taller_2C.html",
+    "href": "taller_2C/taller_2C.html",
+    "title": "4  Ciencia de Datos",
+    "section": "",
+    "text": "4.1 Uno\nUno\nDirect code:",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Ciencia de Datos</span>"
+    ]
+  },
+  {
+    "objectID": "taller_2C/taller_2C.html#uno",
+    "href": "taller_2C/taller_2C.html#uno",
+    "title": "4  Ciencia de Datos",
+    "section": "",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Ciencia de Datos</span>"
+    ]
+  },
+  {
+    "objectID": "template/quarto_template.html",
+    "href": "template/quarto_template.html",
+    "title": "5  Template",
+    "section": "",
+    "text": "5.1 .Python\nUsing {.python}: this is not-executable code, just useful for showing code with color.\nDirect code:\nFrom file:",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template/quarto_template.html#python",
+    "href": "template/quarto_template.html#python",
+    "title": "5  Template",
+    "section": "",
+    "text": "print('Hola mundo!')\n\ndef mi_funcion(n):\n    print(\"Hola\"*n)\nmi_funcion(3)",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template/quarto_template.html#python-1",
+    "href": "template/quarto_template.html#python-1",
+    "title": "5  Template",
+    "section": "5.2 Python",
+    "text": "5.2 Python\nUsing {python}: this is useful to executing code when rendering the book. You can control how to show the code and outputs.\nDirect code:\n\nprint('Hola mundo!')\n\nHola mundo!\n\n\nFrom file:\n\ndef mi_funcion(n):\n    print(\"Hola\"*n)\nmi_funcion(3)\n\nHolaHolaHola",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Template</span>"
+    ]
+  },
+  {
+    "objectID": "template/quarto_template.html#pyodide",
+    "href": "template/quarto_template.html#pyodide",
+    "title": "5  Template",
+    "section": "5.3 Pyodide",
+    "text": "5.3 Pyodide\nPyodide-enabled code cell, using {pyodide-python}: This allows for completely executable code - the user can modify the code and execute it!\nDirect code:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nFrom file:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Template</span>"
+    ]
+  }
+]

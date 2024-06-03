@@ -1,0 +1,6 @@
+# Sobre la PySchool {.unnumbered}
+
+La [PySchool](http://www.pyschool.cl) es un proyecto para motivar a aprender el lenguaje de programación Python.
+Esta página contiene ejemplos autocontenidos. 
+
+Realizado por el equipo de Python Chile, 2024.

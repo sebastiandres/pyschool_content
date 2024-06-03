@@ -1,0 +1,14 @@
+# Programación 
+
+Informática, Computación ...
+
+Ejemplos de uso de Python para solucionar distintos problemas:
+
+## Blabla
+
+Pyodide-enabled code cell, using `{pyodide-python}`: This allows for completely executable code - the user can modify the code and execute it!
+
+Direct code:
+```{pyodide-python}
+print('Hola mundo!')
+```

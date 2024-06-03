@@ -1,0 +1,20 @@
+# Ciencia tradicional
+
+Ejemplos de uso de Python para solucionar distintos problemas:
+
+## Matemática
+
+Pyodide-enabled code cell, using `{pyodide-python}`: This allows for completely executable code - the user can modify the code and execute it!
+
+Direct code:
+```{pyodide-python}
+print('Hola mundo!')
+```
+
+## Física
+
+...
+
+## Estadística
+
+...

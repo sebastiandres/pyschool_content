@@ -1,0 +1,24 @@
+# Python para todo
+
+Ejemplos de uso de Python para solucionar distintos problemas:
+
+## Ejemplo 1
+
+Pyodide-enabled code cell, using `{pyodide-python}`: This allows for completely executable code - the user can modify the code and execute it!
+
+Direct code:
+```{pyodide-python}
+mi_nombre = "Francisco"
+print(f'Hola {mi_nombre}!')
+```
+
+## Ejemplo 2
+
+Pyodide-enabled code cell, using `{pyodide-python}`: This allows for completely executable code - the user can modify the code and execute it!
+
+Direct code:
+```{pyodide-python}
+mi_nombre = "Francisco"
+n = 2
+print(f'Hola {mi_nombre*n}!')
+```

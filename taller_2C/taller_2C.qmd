@@ -1,0 +1,11 @@
+# Ciencia de Datos
+Ejemplos de uso de Python para solucionar problemas de ciencia de datos
+
+## Uno
+
+Uno
+
+Direct code:
+```{pyodide-python}
+print('Hola mundo!')
+```

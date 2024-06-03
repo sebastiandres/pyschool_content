@@ -1,0 +1,22 @@
+project:
+  type: book
+
+book:
+  title: "PySchool"
+  subtitle: "Python"
+  author: "Python Chile"
+  date: "30/08/2024"
+  chapters:
+    - index.qmd
+    - taller_1/taller_1.qmd
+    - taller_2A/taller_2A.qmd
+    - taller_2B/taller_2B.qmd
+    - taller_2C/taller_2C.qmd
+    - template/quarto_template.qmd
+
+format:
+  html:
+    theme: cosmo
+
+filters: 
+  - pyodide
