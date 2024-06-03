@@ -263,7 +263,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"id":1,"code":"print('Hola mundo!')","options":{"classes":"","context":"interactive","read-only":"false","warning":"true","label":"","output":"true","comment":"","autorun":"","dpi":72,"results":"markup","message":"true","out-height":"","fig-cap":"","fig-width":7,"out-width":"700px","fig-height":5}},{"id":2,"code":"def mi_funcion(n):\n    print(\"Hola\"*n)\nmi_funcion(3)","options":{"classes":"","context":"interactive","read-only":"false","warning":"true","label":"","output":"true","comment":"","autorun":"","dpi":72,"results":"markup","message":"true","out-height":"","fig-cap":"","fig-width":7,"out-width":"700px","fig-height":5}}];
+globalThis.qpyodideCellDetails = [{"options":{"fig-cap":"","out-width":"700px","context":"interactive","read-only":"false","label":"","message":"true","output":"true","classes":"","results":"markup","out-height":"","warning":"true","autorun":"","fig-height":5,"dpi":72,"comment":"","fig-width":7},"id":1,"code":"print('Hola mundo!')"},{"options":{"fig-cap":"","out-width":"700px","context":"interactive","read-only":"false","label":"","message":"true","output":"true","classes":"","results":"markup","out-height":"","warning":"true","autorun":"","fig-height":5,"dpi":72,"comment":"","fig-width":7},"id":2,"code":"def mi_funcion(n):\n    print(\"Hola\"*n)\nmi_funcion(3)"}];
 
 
 </script>
@@ -589,14 +589,14 @@ globalThis._qpyodideGetInstance = function() {
 <h2 data-number="5.2" class="anchored" data-anchor-id="python-1"><span class="header-section-number">5.2</span> Python</h2>
 <p>Using <code>{python}</code>: this is useful to executing code when rendering the book. You can control how to show the code and outputs.</p>
 <p>Direct code:</p>
-<div id="725b4cc2" class="cell" data-execution_count="1">
+<div id="08ff9ada" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'Hola mundo!'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Hola mundo!</code></pre>
 </div>
 </div>
 <p>From file:</p>
-<div id="9a3e2ef2" class="cell" data-execution_count="2">
+<div id="d6499123" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> mi_funcion(n):</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"Hola"</span><span class="op">*</span>n)</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>mi_funcion(<span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
