@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PySchool - 1&nbsp; Python para todo</title>
+<title>PySchool - 4&nbsp; Ciencia de Datos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../taller_2A/taller_2A.html" rel="next">
-<link href="../index.html" rel="prev">
+<link href="../template/quarto_template.html" rel="next">
+<link href="../taller_2B/taller_2B.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -230,7 +230,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"id":1,"options":{"fig-cap":"","dpi":72,"classes":"","autorun":"","comment":"","results":"markup","warning":"true","out-width":"700px","label":"","message":"true","out-height":"","fig-width":7,"output":"true","fig-height":5,"context":"interactive","read-only":"false"},"code":"mi_nombre = \"Francisco\"\nprint(f'Hola {mi_nombre}!')"},{"id":2,"options":{"fig-cap":"","dpi":72,"classes":"","autorun":"","comment":"","results":"markup","warning":"true","out-width":"700px","label":"","message":"true","out-height":"","fig-width":7,"output":"true","fig-height":5,"context":"interactive","read-only":"false"},"code":"mi_nombre = \"Francisco\"\nn = 2\nprint(f'Hola {mi_nombre*n}!')"}];
+globalThis.qpyodideCellDetails = [{"id":1,"options":{"message":"true","out-height":"","context":"interactive","read-only":"false","label":"","autorun":"","fig-cap":"","warning":"true","dpi":72,"comment":"","fig-width":7,"out-width":"700px","classes":"","output":"true","results":"markup","fig-height":5},"code":"print('Hola mundo!')"}];
 
 
 </script>
@@ -433,7 +433,7 @@ globalThis._qpyodideGetInstance = function() {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../taller_1/taller_1.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Python para todo</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../taller_2C/taller_2C.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Ciencia de Datos</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -466,7 +466,7 @@ globalThis._qpyodideGetInstance = function() {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../taller_1/taller_1.html" class="sidebar-item-text sidebar-link active">
+  <a href="../taller_1/taller_1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Python para todo</span></span></a>
   </div>
 </li>
@@ -484,7 +484,7 @@ globalThis._qpyodideGetInstance = function() {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../taller_2C/taller_2C.html" class="sidebar-item-text sidebar-link">
+  <a href="../taller_2C/taller_2C.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Ciencia de Datos</span></span></a>
   </div>
 </li>
@@ -504,8 +504,7 @@ globalThis._qpyodideGetInstance = function() {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#ejemplo-1" id="toc-ejemplo-1" class="nav-link active" data-scroll-target="#ejemplo-1"><span class="header-section-number">1.1</span> Ejemplo 1</a></li>
-  <li><a href="#ejemplo-2" id="toc-ejemplo-2" class="nav-link" data-scroll-target="#ejemplo-2"><span class="header-section-number">1.2</span> Ejemplo 2</a></li>
+  <li><a href="#uno" id="toc-uno" class="nav-link active" data-scroll-target="#uno"><span class="header-section-number">4.1</span> Uno</a></li>
   </ul>
 </nav>
     </div>
@@ -524,7 +523,7 @@ globalThis._qpyodideGetInstance = function() {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Python para todo</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Ciencia de Datos</span></h1>
 </div>
 
 
@@ -541,19 +540,12 @@ globalThis._qpyodideGetInstance = function() {
 </header>
 
 
-<p>Ejemplos de uso de Python para solucionar distintos problemas:</p>
-<section id="ejemplo-1" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="ejemplo-1"><span class="header-section-number">1.1</span> Ejemplo 1</h2>
-<p>Pyodide-enabled code cell, using <code>{pyodide-python}</code>: This allows for completely executable code - the user can modify the code and execute it!</p>
+<p>Ejemplos de uso de Python para solucionar problemas de ciencia de datos</p>
+<section id="uno" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="uno"><span class="header-section-number">4.1</span> Uno</h2>
+<p>Uno</p>
 <p>Direct code:</p>
 <div id="qpyodide-insertion-location-1"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-<section id="ejemplo-2" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="ejemplo-2"><span class="header-section-number">1.2</span> Ejemplo 2</h2>
-<p>Pyodide-enabled code cell, using <code>{pyodide-python}</code>: This allows for completely executable code - the user can modify the code and execute it!</p>
-<p>Direct code:</p>
-<div id="qpyodide-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
 
@@ -971,13 +963,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../index.html" class="pagination-link" aria-label="Sobre la PySchool">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Sobre la PySchool</span>
+      <a href="../taller_2B/taller_2B.html" class="pagination-link" aria-label="Programación">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Programación</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../taller_2A/taller_2A.html" class="pagination-link" aria-label="Ciencia tradicional">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Ciencia tradicional</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../template/quarto_template.html" class="pagination-link" aria-label="Template">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Template</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

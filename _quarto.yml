@@ -17,6 +17,7 @@ book:
 format:
   html:
     theme: cosmo
+    output-dir: docs
 
 filters: 
   - pyodide
