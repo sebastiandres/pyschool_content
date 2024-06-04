@@ -2,4 +2,4 @@ render:
 	quarto render .
 
 view:
-	open _book/index.html
+	open docs/index.html

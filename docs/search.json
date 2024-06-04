@@ -14,14 +14,14 @@
     "href": "taller_1/taller_1.html",
     "title": "1  Python para todo",
     "section": "",
-    "text": "1.1 Ejemplo 1\nPyodide-enabled code cell, using {pyodide-python}: This allows for completely executable code - the user can modify the code and execute it!\nDirect code:",
+    "text": "1.1 Calculadora Simple",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
     ]
   },
   {
-    "objectID": "taller_1/taller_1.html#ejemplo-1",
-    "href": "taller_1/taller_1.html#ejemplo-1",
+    "objectID": "taller_1/taller_1.html#calculadora-simple",
+    "href": "taller_1/taller_1.html#calculadora-simple",
     "title": "1  Python para todo",
     "section": "",
     "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
@@ -30,11 +30,191 @@
     ]
   },
   {
-    "objectID": "taller_1/taller_1.html#ejemplo-2",
-    "href": "taller_1/taller_1.html#ejemplo-2",
+    "objectID": "taller_1/taller_1.html#calcular-promedio-de-notas",
+    "href": "taller_1/taller_1.html#calcular-promedio-de-notas",
     "title": "1  Python para todo",
-    "section": "1.2 Ejemplo 2",
-    "text": "1.2 Ejemplo 2\nPyodide-enabled code cell, using {pyodide-python}: This allows for completely executable code - the user can modify the code and execute it!\nDirect code:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "section": "1.2 Calcular Promedio de Notas:",
+    "text": "1.2 Calcular Promedio de Notas:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#convertir-temperaturas",
+    "href": "taller_1/taller_1.html#convertir-temperaturas",
+    "title": "1  Python para todo",
+    "section": "1.3 Convertir Temperaturas:",
+    "text": "1.3 Convertir Temperaturas:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#temporizador-de-cuenta-regresiva",
+    "href": "taller_1/taller_1.html#temporizador-de-cuenta-regresiva",
+    "title": "1  Python para todo",
+    "section": "1.4 Temporizador de Cuenta Regresiva:",
+    "text": "1.4 Temporizador de Cuenta Regresiva:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#encontrar-la-palabra-más-larga",
+    "href": "taller_1/taller_1.html#encontrar-la-palabra-más-larga",
+    "title": "1  Python para todo",
+    "section": "1.5 Encontrar la Palabra Más Larga:",
+    "text": "1.5 Encontrar la Palabra Más Larga:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#cuenta-regresiva-para-cumpleaños",
+    "href": "taller_1/taller_1.html#cuenta-regresiva-para-cumpleaños",
+    "title": "1  Python para todo",
+    "section": "1.6 Cuenta Regresiva para Cumpleaños:",
+    "text": "1.6 Cuenta Regresiva para Cumpleaños:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#imprimir-números-pares",
+    "href": "taller_1/taller_1.html#imprimir-números-pares",
+    "title": "1  Python para todo",
+    "section": "1.7 Imprimir Números Pares:",
+    "text": "1.7 Imprimir Números Pares:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#mostrar-los-primeros-10-elementos-de-la-serie-fibonacci",
+    "href": "taller_1/taller_1.html#mostrar-los-primeros-10-elementos-de-la-serie-fibonacci",
+    "title": "1  Python para todo",
+    "section": "1.8 Mostrar los Primeros 10 Elementos de la Serie Fibonacci:",
+    "text": "1.8 Mostrar los Primeros 10 Elementos de la Serie Fibonacci:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#calcular-el-factorial-de-un-número",
+    "href": "taller_1/taller_1.html#calcular-el-factorial-de-un-número",
+    "title": "1  Python para todo",
+    "section": "1.9 Calcular el Factorial de un Número:",
+    "text": "1.9 Calcular el Factorial de un Número:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#revertir-una-cadena",
+    "href": "taller_1/taller_1.html#revertir-una-cadena",
+    "title": "1  Python para todo",
+    "section": "1.10 Revertir una Cadena:",
+    "text": "1.10 Revertir una Cadena:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#buscar-un-elemento-en-una-lista",
+    "href": "taller_1/taller_1.html#buscar-un-elemento-en-una-lista",
+    "title": "1  Python para todo",
+    "section": "1.11 Buscar un Elemento en una Lista:",
+    "text": "1.11 Buscar un Elemento en una Lista:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#ordenar-una-lista-de-diccionarios-por-un-campo",
+    "href": "taller_1/taller_1.html#ordenar-una-lista-de-diccionarios-por-un-campo",
+    "title": "1  Python para todo",
+    "section": "1.12 Ordenar una Lista de Diccionarios por un Campo:",
+    "text": "1.12 Ordenar una Lista de Diccionarios por un Campo:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#crear-y-utilizar-una-clase",
+    "href": "taller_1/taller_1.html#crear-y-utilizar-una-clase",
+    "title": "1  Python para todo",
+    "section": "1.13 Crear y Utilizar una Clase:",
+    "text": "1.13 Crear y Utilizar una Clase:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#graficar-una-función-matemática",
+    "href": "taller_1/taller_1.html#graficar-una-función-matemática",
+    "title": "1  Python para todo",
+    "section": "1.14 Graficar una Función Matemática:",
+    "text": "1.14 Graficar una Función Matemática:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#leer-y-escribir-un-archivo",
+    "href": "taller_1/taller_1.html#leer-y-escribir-un-archivo",
+    "title": "1  Python para todo",
+    "section": "1.15 Leer y Escribir un Archivo:",
+    "text": "1.15 Leer y Escribir un Archivo:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#generar-una-lista-de-números-primos",
+    "href": "taller_1/taller_1.html#generar-una-lista-de-números-primos",
+    "title": "1  Python para todo",
+    "section": "1.16 Generar una Lista de Números Primos:",
+    "text": "1.16 Generar una Lista de Números Primos:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#calcular-la-media-y-desviación-estándar-de-una-lista",
+    "href": "taller_1/taller_1.html#calcular-la-media-y-desviación-estándar-de-una-lista",
+    "title": "1  Python para todo",
+    "section": "1.17 Calcular la Media y Desviación Estándar de una Lista:",
+    "text": "1.17 Calcular la Media y Desviación Estándar de una Lista:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#simulación-de-un-lanzamiento-de-dados",
+    "href": "taller_1/taller_1.html#simulación-de-un-lanzamiento-de-dados",
+    "title": "1  Python para todo",
+    "section": "1.18 Simulación de un Lanzamiento de Dados:",
+    "text": "1.18 Simulación de un Lanzamiento de Dados:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#crear-una-gráfica-de-barras-de-frecuencias-de-caracteres-en-una-cadena",
+    "href": "taller_1/taller_1.html#crear-una-gráfica-de-barras-de-frecuencias-de-caracteres-en-una-cadena",
+    "title": "1  Python para todo",
+    "section": "1.19 Crear una Gráfica de Barras de Frecuencias de Caracteres en una Cadena:",
+    "text": "1.19 Crear una Gráfica de Barras de Frecuencias de Caracteres en una Cadena:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+    ]
+  },
+  {
+    "objectID": "taller_1/taller_1.html#resolver-un-sistema-de-ecuaciones-lineales",
+    "href": "taller_1/taller_1.html#resolver-un-sistema-de-ecuaciones-lineales",
+    "title": "1  Python para todo",
+    "section": "1.20 Resolver un Sistema de Ecuaciones Lineales:",
+    "text": "1.20 Resolver un Sistema de Ecuaciones Lineales:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
     ]

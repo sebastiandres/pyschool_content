@@ -230,7 +230,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"code":"mi_nombre = \"Francisco\"\nprint(f'Hola {mi_nombre}!')","id":1,"options":{"context":"interactive","classes":"","fig-width":7,"results":"markup","output":"true","read-only":"false","warning":"true","fig-cap":"","comment":"","message":"true","autorun":"","out-height":"","label":"","dpi":72,"fig-height":5,"out-width":"700px"}},{"code":"mi_nombre = \"Francisco\"\nn = 2\nprint(f'Hola {mi_nombre*n}!')","id":2,"options":{"context":"interactive","classes":"","fig-width":7,"results":"markup","output":"true","read-only":"false","warning":"true","fig-cap":"","comment":"","message":"true","autorun":"","out-height":"","label":"","dpi":72,"fig-height":5,"out-width":"700px"}}];
+globalThis.qpyodideCellDetails = [{"id":1,"code":"# Operaciones aritméticas básicas\na = 15\nb = 7\nsuma = a + b\nproducto = a * b\n\nprint(f\"Suma: {suma}\")\nprint(f\"Producto: {producto}\")","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":2,"code":"notas = [7.0, 4.0, 5.6, 6.8, 5.4]\npromedio = sum(notas) / len(notas)\nprint(f\"Promedio de Notas: {promedio}\")","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":3,"code":"celsius = 25\nfahrenheit = (celsius * 9/5) + 32\nprint(f\"{celsius}°C son {fahrenheit}°F\")","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":4,"code":"import time\nfor i in range(10, 0, -1):\n   time.sleep(1)\nprint(\"¡Se acabó el tiempo!\")","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":5,"code":"palabras = [\"manzana\", \"plátano\", \"cereza\", \"dátil\"]\npalabra_mas_larga = max(palabras, key=len)\nprint(f\"La palabra más larga es: {palabra_mas_larga}\")","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":6,"code":"from datetime import datetime\nhoy = datetime.today()\nmes = 12 # Cambiar\ndia = 25 # Cambiar\ncumpleanos = datetime(hoy.year, mes, dia)  \nif cumpleanos < hoy:\n    cumpleanos = datetime(hoy.year + 1, 12, 25)\ndias_hasta_cumpleanos = (cumpleanos - hoy).days\nprint(f\"Faltan {dias_hasta_cumpleanos} días hasta el cumpleaños.\")","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":7,"code":"# Imprimir los primeros 10 números pares\nfor i in range(2, 21, 2):\n    print(i)","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":8,"code":"fibonacci = [0, 1]\nfor i in range(8):\n    fibonacci.append(fibonacci[-1] + fibonacci[-2])\n\nprint(f\"Serie Fibonacci: {fibonacci}\")","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":9,"code":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n\nnumero = 5\nresultado = factorial(numero)\nprint(f\"El factorial de {numero} es {resultado}\")","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":10,"code":"cadena = \"Hola, Mundo\"\ncadena_revertida = cadena[::-1]\nprint(f\"Cadena original: {cadena}\")\nprint(f\"Cadena revertida: {cadena_revertida}\")","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":11,"code":"lista = [3, 7, 1, 9, 2]\nelemento_a_buscar = 9\nencontrado = elemento_a_buscar in lista\n\nif encontrado:\n    print(f\"El elemento {elemento_a_buscar} está en la lista.\")\nelse:\n    print(f\"El elemento {elemento_a_buscar} no está en la lista.\")","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":12,"code":"estudiantes = [\n    {\"nombre\": \"Ana\", \"nota\": 88},\n    {\"nombre\": \"Luis\", \"nota\": 75},\n    {\"nombre\": \"Marta\", \"nota\": 92},\n    {\"nombre\": \"Pedro\", \"nota\": 85}\n]\n\nestudiantes_ordenados = sorted(estudiantes, key=lambda x: x[\"nota\"], reverse=True)\n\nfor estudiante in estudiantes_ordenados:\n    print(f\"{estudiante['nombre']} - {estudiante['nota']}\")","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":13,"code":"class Coche:\n    def __init__(self, marca, modelo, year):\n        self.marca = marca\n        self.modelo = modelo\n        self.year = year\n\n    def descripcion(self):\n        return f\"{self.marca} {self.modelo} del año {self.year}\"\n\nmi_coche = Coche(\"Toyota\", \"Corolla\", 2020)\nprint(mi_coche.descripcion())","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":14,"code":"import matplotlib.pyplot as plt\nimport numpy as np\n\nx = np.linspace(-10, 10, 400)\ny = np.sin(x)\n\nplt.plot(x, y)\nplt.title('Función Seno')\nplt.xlabel('x')\nplt.ylabel('sin(x)')\nplt.grid(True)\nplt.show()","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":15,"code":"# Escribir en un archivo\nwith open('archivo.txt', 'w') as file:\n    file.write(\"Hola, Mundo\\n\")\n    file.write(\"Esta es una prueba\\n\")\n\n# Leer del archivo\nwith open('archivo.txt', 'r') as file:\n    contenido = file.read()\n\nprint(\"Contenido del archivo:\")\nprint(contenido)","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":16,"code":"def es_primo(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\nnumeros_primos = [n for n in range(2, 101) if es_primo(n)]\nprint(f\"Números primos del 1 al 100: {numeros_primos}\")","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":17,"code":"import statistics\n\ndatos = [23, 76, 97, 65, 34, 23, 56, 78, 88, 92]\nmedia = statistics.mean(datos)\ndesviacion_estandar = statistics.stdev(datos)\n\nprint(f\"Media: {media}, Desviación Estándar: {desviacion_estandar}\")","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":18,"code":"import random\n\ndef lanzar_dados(n_lanzamientos):\n    resultados = [random.randint(1, 6) for _ in range(n_lanzamientos)]\n    return resultados\n\nlanzamientos = lanzar_dados(100)\nfrecuencias = {i: lanzamientos.count(i) for i in range(1, 7)}\n\nprint(\"Frecuencia de cada resultado de 100 lanzamientos de dados:\")\nfor resultado, frecuencia in frecuencias.items():\n    print(f\"{resultado}: {frecuencia}\")","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":19,"code":"import matplotlib.pyplot as plt\nfrom collections import Counter\n\ntexto = \"programacion en python\"\nfrecuencias = Counter(texto.replace(\" \", \"\"))\n\ncaracteres = list(frecuencias.keys())\nconteos = list(frecuencias.values())\n\nplt.bar(caracteres, conteos)\nplt.xlabel('Caracteres')\nplt.ylabel('Frecuencia')\nplt.title('Frecuencia de Caracteres en una Cadena')\nplt.show()","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}},{"id":20,"code":"import numpy as np\n\n# Sistema de ecuaciones:\n# 2x + 3y = 8\n# 3x + 4y = 11\n\nA = np.array([  [2, 3], \n                [3, 4]  ])\nB = np.array([      8, \n                    11  ])\n\nsolucion = np.linalg.solve(A, B)\nprint(f\"Solución del sistema de ecuaciones: x = {solucion[0]}, y = {solucion[1]}\")","options":{"results":"markup","message":"true","warning":"true","classes":"","read-only":"false","label":"","output":"true","context":"interactive","out-height":"","out-width":"700px","comment":"","fig-height":5,"fig-width":7,"autorun":"","dpi":72,"fig-cap":""}}];
 
 
 </script>
@@ -504,8 +504,26 @@ globalThis._qpyodideGetInstance = function() {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#ejemplo-1" id="toc-ejemplo-1" class="nav-link active" data-scroll-target="#ejemplo-1"><span class="header-section-number">1.1</span> Ejemplo 1</a></li>
-  <li><a href="#ejemplo-2" id="toc-ejemplo-2" class="nav-link" data-scroll-target="#ejemplo-2"><span class="header-section-number">1.2</span> Ejemplo 2</a></li>
+  <li><a href="#calculadora-simple" id="toc-calculadora-simple" class="nav-link active" data-scroll-target="#calculadora-simple"><span class="header-section-number">1.1</span> Calculadora Simple</a></li>
+  <li><a href="#calcular-promedio-de-notas" id="toc-calcular-promedio-de-notas" class="nav-link" data-scroll-target="#calcular-promedio-de-notas"><span class="header-section-number">1.2</span> Calcular Promedio de Notas:</a></li>
+  <li><a href="#convertir-temperaturas" id="toc-convertir-temperaturas" class="nav-link" data-scroll-target="#convertir-temperaturas"><span class="header-section-number">1.3</span> Convertir Temperaturas:</a></li>
+  <li><a href="#temporizador-de-cuenta-regresiva" id="toc-temporizador-de-cuenta-regresiva" class="nav-link" data-scroll-target="#temporizador-de-cuenta-regresiva"><span class="header-section-number">1.4</span> Temporizador de Cuenta Regresiva:</a></li>
+  <li><a href="#encontrar-la-palabra-más-larga" id="toc-encontrar-la-palabra-más-larga" class="nav-link" data-scroll-target="#encontrar-la-palabra-más-larga"><span class="header-section-number">1.5</span> Encontrar la Palabra Más Larga:</a></li>
+  <li><a href="#cuenta-regresiva-para-cumpleaños" id="toc-cuenta-regresiva-para-cumpleaños" class="nav-link" data-scroll-target="#cuenta-regresiva-para-cumpleaños"><span class="header-section-number">1.6</span> Cuenta Regresiva para Cumpleaños:</a></li>
+  <li><a href="#imprimir-números-pares" id="toc-imprimir-números-pares" class="nav-link" data-scroll-target="#imprimir-números-pares"><span class="header-section-number">1.7</span> Imprimir Números Pares:</a></li>
+  <li><a href="#mostrar-los-primeros-10-elementos-de-la-serie-fibonacci" id="toc-mostrar-los-primeros-10-elementos-de-la-serie-fibonacci" class="nav-link" data-scroll-target="#mostrar-los-primeros-10-elementos-de-la-serie-fibonacci"><span class="header-section-number">1.8</span> Mostrar los Primeros 10 Elementos de la Serie Fibonacci:</a></li>
+  <li><a href="#calcular-el-factorial-de-un-número" id="toc-calcular-el-factorial-de-un-número" class="nav-link" data-scroll-target="#calcular-el-factorial-de-un-número"><span class="header-section-number">1.9</span> Calcular el Factorial de un Número:</a></li>
+  <li><a href="#revertir-una-cadena" id="toc-revertir-una-cadena" class="nav-link" data-scroll-target="#revertir-una-cadena"><span class="header-section-number">1.10</span> Revertir una Cadena:</a></li>
+  <li><a href="#buscar-un-elemento-en-una-lista" id="toc-buscar-un-elemento-en-una-lista" class="nav-link" data-scroll-target="#buscar-un-elemento-en-una-lista"><span class="header-section-number">1.11</span> Buscar un Elemento en una Lista:</a></li>
+  <li><a href="#ordenar-una-lista-de-diccionarios-por-un-campo" id="toc-ordenar-una-lista-de-diccionarios-por-un-campo" class="nav-link" data-scroll-target="#ordenar-una-lista-de-diccionarios-por-un-campo"><span class="header-section-number">1.12</span> Ordenar una Lista de Diccionarios por un Campo:</a></li>
+  <li><a href="#crear-y-utilizar-una-clase" id="toc-crear-y-utilizar-una-clase" class="nav-link" data-scroll-target="#crear-y-utilizar-una-clase"><span class="header-section-number">1.13</span> Crear y Utilizar una Clase:</a></li>
+  <li><a href="#graficar-una-función-matemática" id="toc-graficar-una-función-matemática" class="nav-link" data-scroll-target="#graficar-una-función-matemática"><span class="header-section-number">1.14</span> Graficar una Función Matemática:</a></li>
+  <li><a href="#leer-y-escribir-un-archivo" id="toc-leer-y-escribir-un-archivo" class="nav-link" data-scroll-target="#leer-y-escribir-un-archivo"><span class="header-section-number">1.15</span> Leer y Escribir un Archivo:</a></li>
+  <li><a href="#generar-una-lista-de-números-primos" id="toc-generar-una-lista-de-números-primos" class="nav-link" data-scroll-target="#generar-una-lista-de-números-primos"><span class="header-section-number">1.16</span> Generar una Lista de Números Primos:</a></li>
+  <li><a href="#calcular-la-media-y-desviación-estándar-de-una-lista" id="toc-calcular-la-media-y-desviación-estándar-de-una-lista" class="nav-link" data-scroll-target="#calcular-la-media-y-desviación-estándar-de-una-lista"><span class="header-section-number">1.17</span> Calcular la Media y Desviación Estándar de una Lista:</a></li>
+  <li><a href="#simulación-de-un-lanzamiento-de-dados" id="toc-simulación-de-un-lanzamiento-de-dados" class="nav-link" data-scroll-target="#simulación-de-un-lanzamiento-de-dados"><span class="header-section-number">1.18</span> Simulación de un Lanzamiento de Dados:</a></li>
+  <li><a href="#crear-una-gráfica-de-barras-de-frecuencias-de-caracteres-en-una-cadena" id="toc-crear-una-gráfica-de-barras-de-frecuencias-de-caracteres-en-una-cadena" class="nav-link" data-scroll-target="#crear-una-gráfica-de-barras-de-frecuencias-de-caracteres-en-una-cadena"><span class="header-section-number">1.19</span> Crear una Gráfica de Barras de Frecuencias de Caracteres en una Cadena:</a></li>
+  <li><a href="#resolver-un-sistema-de-ecuaciones-lineales" id="toc-resolver-un-sistema-de-ecuaciones-lineales" class="nav-link" data-scroll-target="#resolver-un-sistema-de-ecuaciones-lineales"><span class="header-section-number">1.20</span> Resolver un Sistema de Ecuaciones Lineales:</a></li>
   </ul>
 </nav>
     </div>
@@ -542,18 +560,104 @@ globalThis._qpyodideGetInstance = function() {
 
 
 <p>Ejemplos de uso de Python para solucionar distintos problemas:</p>
-<section id="ejemplo-1" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="ejemplo-1"><span class="header-section-number">1.1</span> Ejemplo 1</h2>
-<p>Pyodide-enabled code cell, using <code>{pyodide-python}</code>: This allows for completely executable code - the user can modify the code and execute it!</p>
-<p>Direct code:</p>
+<section id="calculadora-simple" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="calculadora-simple"><span class="header-section-number">1.1</span> Calculadora Simple</h2>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="ejemplo-2" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="ejemplo-2"><span class="header-section-number">1.2</span> Ejemplo 2</h2>
-<p>Pyodide-enabled code cell, using <code>{pyodide-python}</code>: This allows for completely executable code - the user can modify the code and execute it!</p>
-<p>Direct code:</p>
+<section id="calcular-promedio-de-notas" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="calcular-promedio-de-notas"><span class="header-section-number">1.2</span> Calcular Promedio de Notas:</h2>
 <div id="qpyodide-insertion-location-2"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="convertir-temperaturas" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="convertir-temperaturas"><span class="header-section-number">1.3</span> Convertir Temperaturas:</h2>
+<div id="qpyodide-insertion-location-3"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="temporizador-de-cuenta-regresiva" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="temporizador-de-cuenta-regresiva"><span class="header-section-number">1.4</span> Temporizador de Cuenta Regresiva:</h2>
+<div id="qpyodide-insertion-location-4"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="encontrar-la-palabra-más-larga" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="encontrar-la-palabra-más-larga"><span class="header-section-number">1.5</span> Encontrar la Palabra Más Larga:</h2>
+<div id="qpyodide-insertion-location-5"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="cuenta-regresiva-para-cumpleaños" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="cuenta-regresiva-para-cumpleaños"><span class="header-section-number">1.6</span> Cuenta Regresiva para Cumpleaños:</h2>
+<div id="qpyodide-insertion-location-6"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="imprimir-números-pares" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="imprimir-números-pares"><span class="header-section-number">1.7</span> Imprimir Números Pares:</h2>
+<div id="qpyodide-insertion-location-7"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="mostrar-los-primeros-10-elementos-de-la-serie-fibonacci" class="level2" data-number="1.8">
+<h2 data-number="1.8" class="anchored" data-anchor-id="mostrar-los-primeros-10-elementos-de-la-serie-fibonacci"><span class="header-section-number">1.8</span> Mostrar los Primeros 10 Elementos de la Serie Fibonacci:</h2>
+<div id="qpyodide-insertion-location-8"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="calcular-el-factorial-de-un-número" class="level2" data-number="1.9">
+<h2 data-number="1.9" class="anchored" data-anchor-id="calcular-el-factorial-de-un-número"><span class="header-section-number">1.9</span> Calcular el Factorial de un Número:</h2>
+<div id="qpyodide-insertion-location-9"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="revertir-una-cadena" class="level2" data-number="1.10">
+<h2 data-number="1.10" class="anchored" data-anchor-id="revertir-una-cadena"><span class="header-section-number">1.10</span> Revertir una Cadena:</h2>
+<div id="qpyodide-insertion-location-10"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="buscar-un-elemento-en-una-lista" class="level2" data-number="1.11">
+<h2 data-number="1.11" class="anchored" data-anchor-id="buscar-un-elemento-en-una-lista"><span class="header-section-number">1.11</span> Buscar un Elemento en una Lista:</h2>
+<div id="qpyodide-insertion-location-11"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="ordenar-una-lista-de-diccionarios-por-un-campo" class="level2" data-number="1.12">
+<h2 data-number="1.12" class="anchored" data-anchor-id="ordenar-una-lista-de-diccionarios-por-un-campo"><span class="header-section-number">1.12</span> Ordenar una Lista de Diccionarios por un Campo:</h2>
+<div id="qpyodide-insertion-location-12"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="crear-y-utilizar-una-clase" class="level2" data-number="1.13">
+<h2 data-number="1.13" class="anchored" data-anchor-id="crear-y-utilizar-una-clase"><span class="header-section-number">1.13</span> Crear y Utilizar una Clase:</h2>
+<div id="qpyodide-insertion-location-13"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="graficar-una-función-matemática" class="level2" data-number="1.14">
+<h2 data-number="1.14" class="anchored" data-anchor-id="graficar-una-función-matemática"><span class="header-section-number">1.14</span> Graficar una Función Matemática:</h2>
+<div id="qpyodide-insertion-location-14"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="leer-y-escribir-un-archivo" class="level2" data-number="1.15">
+<h2 data-number="1.15" class="anchored" data-anchor-id="leer-y-escribir-un-archivo"><span class="header-section-number">1.15</span> Leer y Escribir un Archivo:</h2>
+<div id="qpyodide-insertion-location-15"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="generar-una-lista-de-números-primos" class="level2" data-number="1.16">
+<h2 data-number="1.16" class="anchored" data-anchor-id="generar-una-lista-de-números-primos"><span class="header-section-number">1.16</span> Generar una Lista de Números Primos:</h2>
+<div id="qpyodide-insertion-location-16"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="calcular-la-media-y-desviación-estándar-de-una-lista" class="level2" data-number="1.17">
+<h2 data-number="1.17" class="anchored" data-anchor-id="calcular-la-media-y-desviación-estándar-de-una-lista"><span class="header-section-number">1.17</span> Calcular la Media y Desviación Estándar de una Lista:</h2>
+<div id="qpyodide-insertion-location-17"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="simulación-de-un-lanzamiento-de-dados" class="level2" data-number="1.18">
+<h2 data-number="1.18" class="anchored" data-anchor-id="simulación-de-un-lanzamiento-de-dados"><span class="header-section-number">1.18</span> Simulación de un Lanzamiento de Dados:</h2>
+<div id="qpyodide-insertion-location-18"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="crear-una-gráfica-de-barras-de-frecuencias-de-caracteres-en-una-cadena" class="level2" data-number="1.19">
+<h2 data-number="1.19" class="anchored" data-anchor-id="crear-una-gráfica-de-barras-de-frecuencias-de-caracteres-en-una-cadena"><span class="header-section-number">1.19</span> Crear una Gráfica de Barras de Frecuencias de Caracteres en una Cadena:</h2>
+<div id="qpyodide-insertion-location-19"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="resolver-un-sistema-de-ecuaciones-lineales" class="level2" data-number="1.20">
+<h2 data-number="1.20" class="anchored" data-anchor-id="resolver-un-sistema-de-ecuaciones-lineales"><span class="header-section-number">1.20</span> Resolver un Sistema de Ecuaciones Lineales:</h2>
+<div id="qpyodide-insertion-location-20"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
 

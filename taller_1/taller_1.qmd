@@ -2,23 +2,245 @@
 
 Ejemplos de uso de Python para solucionar distintos problemas:
 
-## Ejemplo 1
+## Calculadora Simple
 
-Pyodide-enabled code cell, using `{pyodide-python}`: This allows for completely executable code - the user can modify the code and execute it!
-
-Direct code:
 ```{pyodide-python}
-mi_nombre = "Francisco"
-print(f'Hola {mi_nombre}!')
+# Operaciones aritméticas básicas
+a = 15
+b = 7
+suma = a + b
+producto = a * b
+
+print(f"Suma: {suma}")
+print(f"Producto: {producto}")
 ```
 
-## Ejemplo 2
+## Calcular Promedio de Notas:
 
-Pyodide-enabled code cell, using `{pyodide-python}`: This allows for completely executable code - the user can modify the code and execute it!
-
-Direct code:
 ```{pyodide-python}
-mi_nombre = "Francisco"
-n = 2
-print(f'Hola {mi_nombre*n}!')
+notas = [7.0, 4.0, 5.6, 6.8, 5.4]
+promedio = sum(notas) / len(notas)
+print(f"Promedio de Notas: {promedio}")
+```
+
+## Convertir Temperaturas:
+```{pyodide-python}
+celsius = 25
+fahrenheit = (celsius * 9/5) + 32
+print(f"{celsius}°C son {fahrenheit}°F")
+```
+
+## Temporizador de Cuenta Regresiva:
+```{pyodide-python}
+import time
+for i in range(10, 0, -1):
+   time.sleep(1)
+print("¡Se acabó el tiempo!")
+```
+
+## Encontrar la Palabra Más Larga:
+```{pyodide-python}
+palabras = ["manzana", "plátano", "cereza", "dátil"]
+palabra_mas_larga = max(palabras, key=len)
+print(f"La palabra más larga es: {palabra_mas_larga}")
+```
+
+## Cuenta Regresiva para Cumpleaños:
+```{pyodide-python}
+from datetime import datetime
+hoy = datetime.today()
+mes = 12 # Cambiar
+dia = 25 # Cambiar
+cumpleanos = datetime(hoy.year, mes, dia)  
+if cumpleanos < hoy:
+    cumpleanos = datetime(hoy.year + 1, 12, 25)
+dias_hasta_cumpleanos = (cumpleanos - hoy).days
+print(f"Faltan {dias_hasta_cumpleanos} días hasta el cumpleaños.")
+```
+
+
+## Imprimir Números Pares:
+```{pyodide-python}
+# Imprimir los primeros 10 números pares
+for i in range(2, 21, 2):
+    print(i)
+```
+
+## Mostrar los Primeros 10 Elementos de la Serie Fibonacci:
+```{pyodide-python}
+fibonacci = [0, 1]
+for i in range(8):
+    fibonacci.append(fibonacci[-1] + fibonacci[-2])
+
+print(f"Serie Fibonacci: {fibonacci}")
+```
+
+## Calcular el Factorial de un Número:
+```{pyodide-python}
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+numero = 5
+resultado = factorial(numero)
+print(f"El factorial de {numero} es {resultado}")
+```
+
+## Revertir una Cadena:
+```{pyodide-python}
+cadena = "Hola, Mundo"
+cadena_revertida = cadena[::-1]
+print(f"Cadena original: {cadena}")
+print(f"Cadena revertida: {cadena_revertida}")
+```
+
+## Buscar un Elemento en una Lista:
+```{pyodide-python}
+lista = [3, 7, 1, 9, 2]
+elemento_a_buscar = 9
+encontrado = elemento_a_buscar in lista
+
+if encontrado:
+    print(f"El elemento {elemento_a_buscar} está en la lista.")
+else:
+    print(f"El elemento {elemento_a_buscar} no está en la lista.")
+```
+
+## Ordenar una Lista de Diccionarios por un Campo:
+```{pyodide-python}
+estudiantes = [
+    {"nombre": "Ana", "nota": 88},
+    {"nombre": "Luis", "nota": 75},
+    {"nombre": "Marta", "nota": 92},
+    {"nombre": "Pedro", "nota": 85}
+]
+
+estudiantes_ordenados = sorted(estudiantes, key=lambda x: x["nota"], reverse=True)
+
+for estudiante in estudiantes_ordenados:
+    print(f"{estudiante['nombre']} - {estudiante['nota']}")
+```
+
+## Crear y Utilizar una Clase:
+```{pyodide-python}
+class Coche:
+    def __init__(self, marca, modelo, year):
+        self.marca = marca
+        self.modelo = modelo
+        self.year = year
+
+    def descripcion(self):
+        return f"{self.marca} {self.modelo} del año {self.year}"
+
+mi_coche = Coche("Toyota", "Corolla", 2020)
+print(mi_coche.descripcion())
+```
+
+## Graficar una Función Matemática:
+```{pyodide-python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(-10, 10, 400)
+y = np.sin(x)
+
+plt.plot(x, y)
+plt.title('Función Seno')
+plt.xlabel('x')
+plt.ylabel('sin(x)')
+plt.grid(True)
+plt.show()
+```
+
+## Leer y Escribir un Archivo:
+```{pyodide-python}
+# Escribir en un archivo
+with open('archivo.txt', 'w') as file:
+    file.write("Hola, Mundo\n")
+    file.write("Esta es una prueba\n")
+
+# Leer del archivo
+with open('archivo.txt', 'r') as file:
+    contenido = file.read()
+
+print("Contenido del archivo:")
+print(contenido)
+```
+
+## Generar una Lista de Números Primos:
+```{pyodide-python}
+def es_primo(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+numeros_primos = [n for n in range(2, 101) if es_primo(n)]
+print(f"Números primos del 1 al 100: {numeros_primos}")
+```
+
+## Calcular la Media y Desviación Estándar de una Lista:
+```{pyodide-python}
+import statistics
+
+datos = [23, 76, 97, 65, 34, 23, 56, 78, 88, 92]
+media = statistics.mean(datos)
+desviacion_estandar = statistics.stdev(datos)
+
+print(f"Media: {media}, Desviación Estándar: {desviacion_estandar}")
+```
+
+## Simulación de un Lanzamiento de Dados:
+```{pyodide-python}
+import random
+
+def lanzar_dados(n_lanzamientos):
+    resultados = [random.randint(1, 6) for _ in range(n_lanzamientos)]
+    return resultados
+
+lanzamientos = lanzar_dados(100)
+frecuencias = {i: lanzamientos.count(i) for i in range(1, 7)}
+
+print("Frecuencia de cada resultado de 100 lanzamientos de dados:")
+for resultado, frecuencia in frecuencias.items():
+    print(f"{resultado}: {frecuencia}")
+```
+
+## Crear una Gráfica de Barras de Frecuencias de Caracteres en una Cadena:
+```{pyodide-python}
+import matplotlib.pyplot as plt
+from collections import Counter
+
+texto = "programacion en python"
+frecuencias = Counter(texto.replace(" ", ""))
+
+caracteres = list(frecuencias.keys())
+conteos = list(frecuencias.values())
+
+plt.bar(caracteres, conteos)
+plt.xlabel('Caracteres')
+plt.ylabel('Frecuencia')
+plt.title('Frecuencia de Caracteres en una Cadena')
+plt.show()
+```
+
+## Resolver un Sistema de Ecuaciones Lineales:
+```{pyodide-python}
+import numpy as np
+
+# Sistema de ecuaciones:
+# 2x + 3y = 8
+# 3x + 4y = 11
+
+A = np.array([  [2, 3], 
+                [3, 4]  ])
+B = np.array([      8, 
+                    11  ])
+
+solucion = np.linalg.solve(A, B)
+print(f"Solución del sistema de ecuaciones: x = {solucion[0]}, y = {solucion[1]}")
 ```
