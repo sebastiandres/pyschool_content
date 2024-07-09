@@ -30,7 +30,7 @@ lang: es
 
 format:
   html:
-    theme: flatly
+    theme: spacelab
     number-sections: false
   epub:
     cover-image: images/cover.png

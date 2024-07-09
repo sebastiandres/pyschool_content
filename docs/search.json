@@ -4,17 +4,17 @@
     "href": "index.html",
     "title": "PySchool",
     "section": "",
-    "text": "🏠 Inicio\nEste espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.\nPySchool es una iniciativa de la organización Python Chile y DUOC. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nLOGOS PYTHON CHILE Y DUOC\nLa PySchool tendrá lugar el viernes 2 de Agosto, en el DUOC Valparaíso (lugar.), para alumnos de distintos colegios de la V Región. Sin embargo, el material está disponible en línea para que cualquier interesado pueda participar.",
+    "text": "🏠 Inicio\nEste espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.\nPySchool es una iniciativa de la organización Python Chile y DUOC. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nLa PySchool tendrá lugar el viernes 2 de Agosto, en DUOC Sede Valparaíso, para alumnos invitados de distintos colegios de la V Región. Sin embargo, el material está disponible en línea para que cualquier interesado pueda participar.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Inicio</span>"
     ]
   },
   {
-    "objectID": "index.html#actividades",
-    "href": "index.html#actividades",
+    "objectID": "index.html#programa-de-actividades",
+    "href": "index.html#programa-de-actividades",
     "title": "PySchool",
-    "section": "Actividades",
-    "text": "Actividades\nTABLA DE LAS ACTIVIDADES",
+    "section": "Programa de actividades",
+    "text": "Programa de actividades\n\n\n\nInicio\nFin\nActividad\n\n\n\n\n9:00\n9:30\nAcreditación\n\n\n9:30\n10:15\nBienvenida y panel pythonistas\n\n\n10:30\n11:30\nTaller 1\n\n\n12:00\n13:00\nTaller 2\n\n\n13:00\n1:30\nCierre\n\n\n\nEl taller 1 será común para todos y se tratará de Introducción a Python.\nEl taller 2 puede ser de Python en Ciencias o Python en Ciencia de Datos, según hayan elegido.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Inicio</span>"
     ]
