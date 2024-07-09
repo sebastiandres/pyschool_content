@@ -4,339 +4,349 @@
     "href": "index.html",
     "title": "PySchool",
     "section": "",
-    "text": "Sobre la PySchool\nLa PySchool es un proyecto para motivar a aprender el lenguaje de programación Python. Esta página contiene ejemplos autocontenidos.\nRealizado por el equipo de Python Chile, 2024.",
+    "text": "🏠 Inicio\nEste espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.\nPySchool es una iniciativa de la organización Python Chile y DUOC. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nLOGOS PYTHON CHILE Y DUOC\nLa PySchool tendrá lugar el viernes 2 de Agosto, en el DUOC Valparaíso (lugar.), para alumnos de distintos colegios de la V Región. Sin embargo, el material está disponible en línea para que cualquier interesado pueda participar.",
     "crumbs": [
-      "Sobre la PySchool"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Inicio</span>"
     ]
   },
   {
-    "objectID": "taller_1/taller_1.html",
-    "href": "taller_1/taller_1.html",
-    "title": "1  Python para todo",
+    "objectID": "index.html#actividades",
+    "href": "index.html#actividades",
+    "title": "PySchool",
+    "section": "Actividades",
+    "text": "Actividades\nTABLA DE LAS ACTIVIDADES",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Inicio</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_1.html",
+    "href": "talleres/taller_1.html",
+    "title": "🚀 Taller 01: Introducción a Python",
     "section": "",
-    "text": "1.1 Calculadora Simple",
+    "text": "1. 👋 Hola Mundo\nEl clásico primer programa en cualquier lenguaje de programación. Imprimiremos “Hola, Mundo” en la pantalla.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
+      "Talleres",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
     ]
   },
   {
-    "objectID": "taller_1/taller_1.html#calculadora-simple",
-    "href": "taller_1/taller_1.html#calculadora-simple",
-    "title": "1  Python para todo",
-    "section": "",
-    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#calcular-promedio-de-notas",
-    "href": "taller_1/taller_1.html#calcular-promedio-de-notas",
-    "title": "1  Python para todo",
-    "section": "1.2 Calcular Promedio de Notas:",
-    "text": "1.2 Calcular Promedio de Notas:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#convertir-temperaturas",
-    "href": "taller_1/taller_1.html#convertir-temperaturas",
-    "title": "1  Python para todo",
-    "section": "1.3 Convertir Temperaturas:",
-    "text": "1.3 Convertir Temperaturas:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#temporizador-de-cuenta-regresiva",
-    "href": "taller_1/taller_1.html#temporizador-de-cuenta-regresiva",
-    "title": "1  Python para todo",
-    "section": "1.4 Temporizador de Cuenta Regresiva:",
-    "text": "1.4 Temporizador de Cuenta Regresiva:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#encontrar-la-palabra-más-larga",
-    "href": "taller_1/taller_1.html#encontrar-la-palabra-más-larga",
-    "title": "1  Python para todo",
-    "section": "1.5 Encontrar la Palabra Más Larga:",
-    "text": "1.5 Encontrar la Palabra Más Larga:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#cuenta-regresiva-para-cumpleaños",
-    "href": "taller_1/taller_1.html#cuenta-regresiva-para-cumpleaños",
-    "title": "1  Python para todo",
-    "section": "1.6 Cuenta Regresiva para Cumpleaños:",
-    "text": "1.6 Cuenta Regresiva para Cumpleaños:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#imprimir-números-pares",
-    "href": "taller_1/taller_1.html#imprimir-números-pares",
-    "title": "1  Python para todo",
-    "section": "1.7 Imprimir Números Pares:",
-    "text": "1.7 Imprimir Números Pares:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#mostrar-los-primeros-10-elementos-de-la-serie-fibonacci",
-    "href": "taller_1/taller_1.html#mostrar-los-primeros-10-elementos-de-la-serie-fibonacci",
-    "title": "1  Python para todo",
-    "section": "1.8 Mostrar los Primeros 10 Elementos de la Serie Fibonacci:",
-    "text": "1.8 Mostrar los Primeros 10 Elementos de la Serie Fibonacci:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#calcular-el-factorial-de-un-número",
-    "href": "taller_1/taller_1.html#calcular-el-factorial-de-un-número",
-    "title": "1  Python para todo",
-    "section": "1.9 Calcular el Factorial de un Número:",
-    "text": "1.9 Calcular el Factorial de un Número:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#revertir-una-cadena",
-    "href": "taller_1/taller_1.html#revertir-una-cadena",
-    "title": "1  Python para todo",
-    "section": "1.10 Revertir una Cadena:",
-    "text": "1.10 Revertir una Cadena:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#buscar-un-elemento-en-una-lista",
-    "href": "taller_1/taller_1.html#buscar-un-elemento-en-una-lista",
-    "title": "1  Python para todo",
-    "section": "1.11 Buscar un Elemento en una Lista:",
-    "text": "1.11 Buscar un Elemento en una Lista:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#ordenar-una-lista-de-diccionarios-por-un-campo",
-    "href": "taller_1/taller_1.html#ordenar-una-lista-de-diccionarios-por-un-campo",
-    "title": "1  Python para todo",
-    "section": "1.12 Ordenar una Lista de Diccionarios por un Campo:",
-    "text": "1.12 Ordenar una Lista de Diccionarios por un Campo:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#crear-y-utilizar-una-clase",
-    "href": "taller_1/taller_1.html#crear-y-utilizar-una-clase",
-    "title": "1  Python para todo",
-    "section": "1.13 Crear y Utilizar una Clase:",
-    "text": "1.13 Crear y Utilizar una Clase:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#graficar-una-función-matemática",
-    "href": "taller_1/taller_1.html#graficar-una-función-matemática",
-    "title": "1  Python para todo",
-    "section": "1.14 Graficar una Función Matemática:",
-    "text": "1.14 Graficar una Función Matemática:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#leer-y-escribir-un-archivo",
-    "href": "taller_1/taller_1.html#leer-y-escribir-un-archivo",
-    "title": "1  Python para todo",
-    "section": "1.15 Leer y Escribir un Archivo:",
-    "text": "1.15 Leer y Escribir un Archivo:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#generar-una-lista-de-números-primos",
-    "href": "taller_1/taller_1.html#generar-una-lista-de-números-primos",
-    "title": "1  Python para todo",
-    "section": "1.16 Generar una Lista de Números Primos:",
-    "text": "1.16 Generar una Lista de Números Primos:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#calcular-la-media-y-desviación-estándar-de-una-lista",
-    "href": "taller_1/taller_1.html#calcular-la-media-y-desviación-estándar-de-una-lista",
-    "title": "1  Python para todo",
-    "section": "1.17 Calcular la Media y Desviación Estándar de una Lista:",
-    "text": "1.17 Calcular la Media y Desviación Estándar de una Lista:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#simulación-de-un-lanzamiento-de-dados",
-    "href": "taller_1/taller_1.html#simulación-de-un-lanzamiento-de-dados",
-    "title": "1  Python para todo",
-    "section": "1.18 Simulación de un Lanzamiento de Dados:",
-    "text": "1.18 Simulación de un Lanzamiento de Dados:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#crear-una-gráfica-de-barras-de-frecuencias-de-caracteres-en-una-cadena",
-    "href": "taller_1/taller_1.html#crear-una-gráfica-de-barras-de-frecuencias-de-caracteres-en-una-cadena",
-    "title": "1  Python para todo",
-    "section": "1.19 Crear una Gráfica de Barras de Frecuencias de Caracteres en una Cadena:",
-    "text": "1.19 Crear una Gráfica de Barras de Frecuencias de Caracteres en una Cadena:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_1/taller_1.html#resolver-un-sistema-de-ecuaciones-lineales",
-    "href": "taller_1/taller_1.html#resolver-un-sistema-de-ecuaciones-lineales",
-    "title": "1  Python para todo",
-    "section": "1.20 Resolver un Sistema de Ecuaciones Lineales:",
-    "text": "1.20 Resolver un Sistema de Ecuaciones Lineales:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Python para todo</span>"
-    ]
-  },
-  {
-    "objectID": "taller_2A/taller_2A.html",
-    "href": "taller_2A/taller_2A.html",
-    "title": "2  Ciencia tradicional",
-    "section": "",
-    "text": "2.1 Matemática\nPyodide-enabled code cell, using {pyodide-python}: This allows for completely executable code - the user can modify the code and execute it!\nDirect code:",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Ciencia tradicional</span>"
-    ]
-  },
-  {
-    "objectID": "taller_2A/taller_2A.html#matemática",
-    "href": "taller_2A/taller_2A.html#matemática",
-    "title": "2  Ciencia tradicional",
+    "objectID": "talleres/taller_1.html#hola-mundo",
+    "href": "talleres/taller_1.html#hola-mundo",
+    "title": "🚀 Taller 01: Introducción a Python",
     "section": "",
     "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Ciencia tradicional</span>"
+      "Talleres",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
     ]
   },
   {
-    "objectID": "taller_2A/taller_2A.html#física",
-    "href": "taller_2A/taller_2A.html#física",
-    "title": "2  Ciencia tradicional",
-    "section": "2.2 Física",
-    "text": "2.2 Física\n…",
+    "objectID": "talleres/taller_1.html#calculadora-básica",
+    "href": "talleres/taller_1.html#calculadora-básica",
+    "title": "🚀 Taller 01: Introducción a Python",
+    "section": "2. 🧮 Calculadora Básica",
+    "text": "2. 🧮 Calculadora Básica\nUna simple calculadora que realiza operaciones básicas como suma, resta, multiplicación y división.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Ciencia tradicional</span>"
+      "Talleres",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
     ]
   },
   {
-    "objectID": "taller_2A/taller_2A.html#estadística",
-    "href": "taller_2A/taller_2A.html#estadística",
-    "title": "2  Ciencia tradicional",
-    "section": "2.3 Estadística",
-    "text": "2.3 Estadística\n…",
+    "objectID": "talleres/taller_1.html#verificación-de-año-bisiesto",
+    "href": "talleres/taller_1.html#verificación-de-año-bisiesto",
+    "title": "🚀 Taller 01: Introducción a Python",
+    "section": "3. 📅 Verificación de Año Bisiesto",
+    "text": "3. 📅 Verificación de Año Bisiesto\nUn programa para determinar si un año es bisiesto.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Ciencia tradicional</span>"
+      "Talleres",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
     ]
   },
   {
-    "objectID": "taller_2B/taller_2B.html",
-    "href": "taller_2B/taller_2B.html",
-    "title": "3  Programación",
+    "objectID": "talleres/taller_1.html#adivina-el-número",
+    "href": "talleres/taller_1.html#adivina-el-número",
+    "title": "🚀 Taller 01: Introducción a Python",
+    "section": "4. 🔢 Adivina el Número",
+    "text": "4. 🔢 Adivina el Número\nUn juego donde la computadora elige un número al azar y el usuario intenta adivinarlo.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_1.html#conjetura-de-collatz",
+    "href": "talleres/taller_1.html#conjetura-de-collatz",
+    "title": "🚀 Taller 01: Introducción a Python",
+    "section": "5. 📜 Conjetura de Collatz",
+    "text": "5. 📜 Conjetura de Collatz\nUn programa que implementa la Conjetura de Collatz, también conocida como la conjetura 3n + 1.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_1.html#ejercicios-de-aritmética",
+    "href": "talleres/taller_1.html#ejercicios-de-aritmética",
+    "title": "🚀 Taller 01: Introducción a Python",
+    "section": "6. ➕ Ejercicios de Aritmética",
+    "text": "6. ➕ Ejercicios de Aritmética\n\nSuma de Números\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nFactorial de un Número\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_1.html#ejemplos-adicionales",
+    "href": "talleres/taller_1.html#ejemplos-adicionales",
+    "title": "🚀 Taller 01: Introducción a Python",
+    "section": "7. 📚 Ejemplos Adicionales",
+    "text": "7. 📚 Ejemplos Adicionales\n\nConversión de Temperatura\nUn programa para convertir grados Celsius a Fahrenheit.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nCálculo del Índice de Masa Corporal (IMC)\nUn programa para calcular el IMC de una persona.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nNúmero Primo\nUn programa para verificar si un número es primo.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_2.html",
+    "href": "talleres/taller_2.html",
+    "title": "🚀 Taller 02: Python en la Ciencia Tradicional",
     "section": "",
-    "text": "3.1 Blabla\nPyodide-enabled code cell, using {pyodide-python}: This allows for completely executable code - the user can modify the code and execute it!\nDirect code:",
+    "text": "1. 🔬 Física\nPython se usa ampliamente en la física para simular sistemas y analizar datos experimentales.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Programación</span>"
+      "Talleres",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>🚀 Taller 02: Python en la Ciencia Tradicional</span>"
     ]
   },
   {
-    "objectID": "taller_2B/taller_2B.html#blabla",
-    "href": "taller_2B/taller_2B.html#blabla",
-    "title": "3  Programación",
+    "objectID": "talleres/taller_2.html#física",
+    "href": "talleres/taller_2.html#física",
+    "title": "🚀 Taller 02: Python en la Ciencia Tradicional",
     "section": "",
-    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Simulación de Movimiento\nSimulación del movimiento de un objeto bajo la influencia de la gravedad usando la biblioteca matplotlib para la visualización:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nSimulación de Movimiento Armónico Simple\nSimulación del movimiento de un oscilador armónico simple:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLey de Coulomb\nCálculo de la fuerza entre dos cargas usando la ley de Coulomb:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Programación</span>"
+      "Talleres",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>🚀 Taller 02: Python en la Ciencia Tradicional</span>"
     ]
   },
   {
-    "objectID": "taller_2C/taller_2C.html",
-    "href": "taller_2C/taller_2C.html",
-    "title": "4  Ciencia de Datos",
+    "objectID": "talleres/taller_2.html#estadística-y-probabilidad",
+    "href": "talleres/taller_2.html#estadística-y-probabilidad",
+    "title": "🚀 Taller 02: Python en la Ciencia Tradicional",
+    "section": "2. 📈 Estadística y Probabilidad",
+    "text": "2. 📈 Estadística y Probabilidad\nPython proporciona herramientas robustas para el análisis estadístico y la probabilidad, utilizando bibliotecas como pandas, scipy y numpy. Los siguientes ejercicios están diseñados para estudiantes de secundaria, simplificando conceptos complejos en ejemplos prácticos y fáciles de entender.\n\nGeneración de Números Aleatorios\nGenerar una lista de números aleatorios y calcular su media:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLanzamiento de Moneda\nSimular el lanzamiento de una moneda y calcular la probabilidad de obtener cara o cruz:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLanzamiento de Dados\nSimular el lanzamiento de dos dados y calcular la frecuencia de cada suma posible:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nProbabilidad Condicional\nCalcular la probabilidad condicional usando un ejemplo de selección de bolas de una urna:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>🚀 Taller 02: Python en la Ciencia Tradicional</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_3.html",
+    "href": "talleres/taller_3.html",
+    "title": "🚀 Taller 03: Python en la Ciencia Datos",
     "section": "",
-    "text": "4.1 Uno\nUno\nDirect code:",
+    "text": "📊 Exploración y Visualización de Datos\nPrimero, importemos las bibliotecas necesarias y carguemos el conjunto de datos de Pokémon.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Ciencia de Datos</span>"
+      "Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 03: Python en la Ciencia Datos</span>"
     ]
   },
   {
-    "objectID": "taller_2C/taller_2C.html#uno",
-    "href": "taller_2C/taller_2C.html#uno",
-    "title": "4  Ciencia de Datos",
+    "objectID": "talleres/taller_3.html#exploración-y-visualización-de-datos",
+    "href": "talleres/taller_3.html#exploración-y-visualización-de-datos",
+    "title": "🚀 Taller 03: Python en la Ciencia Datos",
     "section": "",
-    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "Cargar el Conjunto de Datos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nDescripción del Conjunto de Datos\nObtener una visión general de las estadísticas del conjunto de datos.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Ciencia de Datos</span>"
+      "Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 03: Python en la Ciencia Datos</span>"
     ]
   },
   {
-    "objectID": "template/quarto_template.html",
-    "href": "template/quarto_template.html",
-    "title": "5  Template",
+    "objectID": "talleres/taller_3.html#análisis-y-visualización-de-datos",
+    "href": "talleres/taller_3.html#análisis-y-visualización-de-datos",
+    "title": "🚀 Taller 03: Python en la Ciencia Datos",
+    "section": "📈 Análisis y Visualización de Datos",
+    "text": "📈 Análisis y Visualización de Datos\n\nTipos de Pokémon\nVeamos cuántos Pokémon de cada tipo hay en el conjunto de datos.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nEstadísticas de Ataque y Defensa\nComparar las estadísticas de ataque y defensa de los Pokémon.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPromedio de Estadísticas por Tipo\nCalcular y visualizar el promedio de las estadísticas principales de los Pokémon agrupados por tipo.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPeso y Altura de los Pokémon\nExplorar la relación entre el peso y la altura de los Pokémon (utilizando las estadísticas de Weight y Height si estuvieran disponibles).\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 03: Python en la Ciencia Datos</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_3.html#tablas-y-gráficos-interactivos",
+    "href": "talleres/taller_3.html#tablas-y-gráficos-interactivos",
+    "title": "🚀 Taller 03: Python en la Ciencia Datos",
+    "section": "📊 Tablas y Gráficos Interactivos",
+    "text": "📊 Tablas y Gráficos Interactivos\n\nTabla de Pokémon con Mayor Ataque\nMostrar los 10 Pokémon con la mayor estadística de ataque.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nTabla de Pokémon con Mayor Defensa\nMostrar los 10 Pokémon con la mayor estadística de defensa.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 03: Python en la Ciencia Datos</span>"
+    ]
+  },
+  {
+    "objectID": "anexos/seguir_aprendiendo.html",
+    "href": "anexos/seguir_aprendiendo.html",
+    "title": "Seguir aprendiendo",
     "section": "",
-    "text": "5.1 .Python\nUsing {.python}: this is not-executable code, just useful for showing code with color.\nDirect code:\nFrom file:",
+    "text": "Recursos recomendados 📚",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Template</span>"
+      "Anexos",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Seguir aprendiendo</span>"
     ]
   },
   {
-    "objectID": "template/quarto_template.html#python",
-    "href": "template/quarto_template.html#python",
-    "title": "5  Template",
+    "objectID": "anexos/seguir_aprendiendo.html#recursos-recomendados",
+    "href": "anexos/seguir_aprendiendo.html#recursos-recomendados",
+    "title": "Seguir aprendiendo",
     "section": "",
-    "text": "print('Hola mundo!')\n\ndef mi_funcion(n):\n    print(\"Hola\"*n)\nmi_funcion(3)",
+    "text": "Cursos en Línea\n\nCoursera: Cursos como “Python for Everybody” de la Universidad de Míchigan.\nedX: Programas de certificación profesional como “Programming for Everybody” del MIT.\nUdemy: Cursos completos, desde lo básico hasta temas avanzados como “Complete Python Bootcamp”.\n\nPlataformas Interactivas\n\nCodecademy: Curso interactivo de Python para principiantes.\nDataCamp: Cursos especializados en Python para ciencia de datos.\n\nDocumentación Oficial y Recursos Comunitarios\n\nDocumentación de Python: La fuente más confiable y detallada para aprender Python.\nStack Overflow: Comunidad activa para resolver dudas.\nGitHub: Repositorios de proyectos de código abierto en Python.\n\nLibros Recomendados\n\n“Automate the Boring Stuff with Python” de Al Sweigart.\n“Python Crash Course” de Eric Matthes.\n“Fluent Python” de Luciano Ramalho.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Template</span>"
+      "Anexos",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Seguir aprendiendo</span>"
     ]
   },
   {
-    "objectID": "template/quarto_template.html#python-1",
-    "href": "template/quarto_template.html#python-1",
-    "title": "5  Template",
-    "section": "5.2 Python",
-    "text": "5.2 Python\nUsing {python}: this is useful to executing code when rendering the book. You can control how to show the code and outputs.\nDirect code:\n\nprint('Hola mundo!')\n\nHola mundo!\n\n\nFrom file:\n\ndef mi_funcion(n):\n    print(\"Hola\"*n)\nmi_funcion(3)\n\nHolaHolaHola",
+    "objectID": "anexos/seguir_aprendiendo.html#consejos-para-aprender-python",
+    "href": "anexos/seguir_aprendiendo.html#consejos-para-aprender-python",
+    "title": "Seguir aprendiendo",
+    "section": "Consejos para Aprender Python",
+    "text": "Consejos para Aprender Python\n\nPracticar regularmente\n\nEscribe código todos los días, incluso si es por poco tiempo.\n\nParticipar en proyectos reales\n\nContribuye a proyectos de código abierto en GitHub o crea tus propios proyectos.\n\nResolver ejercicios y retos\n\nPlataformas como LeetCode, HackerRank, y CodeWars ofrecen retos de programación.\n\nUnirse a comunidades\n\nParticipa en comunidades como r/learnpython en Reddit y Python Discord.\n\nMantenerse Actualizado\n\nSigue aprendiendo sobre nuevas versiones y mejores prácticas a través de blogs, conferencias y webinars.\n\n\nCon estos recursos y consejos, estarás en el camino correcto para dominar Python y aplicarlo en tus proyectos y carrera profesional.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Template</span>"
+      "Anexos",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Seguir aprendiendo</span>"
     ]
   },
   {
-    "objectID": "template/quarto_template.html#pyodide",
-    "href": "template/quarto_template.html#pyodide",
-    "title": "5  Template",
-    "section": "5.3 Pyodide",
-    "text": "5.3 Pyodide\nPyodide-enabled code cell, using {pyodide-python}: This allows for completely executable code - the user can modify the code and execute it!\nDirect code:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nFrom file:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "objectID": "anexos/tecnologia.html",
+    "href": "anexos/tecnologia.html",
+    "title": "Sobre la página",
+    "section": "",
+    "text": "Esta página fue creada con quarto y la extensión quarto-pyodide\n\n\n\nFiltro quarto-pyodide en acción\n\n\nPuedes ver el ejemplo completo de la extensión en acción aquí.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Template</span>"
+      "Anexos",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sobre la página</span>"
+    ]
+  },
+  {
+    "objectID": "anexos/autoria_y_colaborar.html",
+    "href": "anexos/autoria_y_colaborar.html",
+    "title": "📜 Autoría",
+    "section": "",
+    "text": "Reconocimientos Adicionales\nAdemás, queremos reconocer a todos los colaboradores y miembros de la comunidad que han contribuido con ideas, sugerencias y código, ayudando a mejorar y expandir este proyecto. Su participación es invaluable y profundamente apreciada.\nSi deseas conocer más sobre los autores y colaboradores, o cómo puedes contribuir tú también, visita la página oficial de Python Chile. ¡Gracias por apoyar y ser parte de nuestra comunidad!",
+    "crumbs": [
+      "Anexos",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>📜 Autoría</span>"
+    ]
+  },
+  {
+    "objectID": "anexos/autoria_y_colaborar.html#colaborar",
+    "href": "anexos/autoria_y_colaborar.html#colaborar",
+    "title": "📜 Autoría",
+    "section": "Colaborar",
+    "text": "Colaborar",
+    "crumbs": [
+      "Anexos",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>📜 Autoría</span>"
+    ]
+  },
+  {
+    "objectID": "prefacio/intro_progra.html",
+    "href": "prefacio/intro_progra.html",
+    "title": "💻 Sobre Programación",
+    "section": "",
+    "text": "Introducción\nSi tuviéramos que resumir el propósito de la programación en una frase, sería:\nLas computadoras son expertas en llevar a cabo tareas rutinarias. Idealmente, cualquier labor tediosa y repetitiva debería ser delegada a una computadora, permitiendo así que los humanos se enfoquen en los problemas verdaderamente interesantes: aquellos que demandan creatividad, pensamiento crítico y subjetividad.\nLa programación es el proceso de traducir un enfoque para resolver problemas en términos comprensibles para la computadora.\nAdemás, la programación abarca una amplia gama de lenguajes y paradigmas, cada uno con sus propias características y aplicaciones. Desde los clásicos como C y Java hasta los modernos como Python y JavaScript, cada lenguaje tiene sus fortalezas y debilidades, y la elección del lenguaje adecuado depende del contexto y los requisitos del proyecto.\nLa programación no se limita solo a escribir código. También implica planificación, diseño y depuración de software. Los programadores deben comprender los requisitos del usuario, diseñar soluciones eficientes y depurar errores para garantizar que el software funcione correctamente.",
+    "crumbs": [
+      "Refactor-me",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>💻 Sobre Programación</span>"
+    ]
+  },
+  {
+    "objectID": "prefacio/intro_progra.html#introducción",
+    "href": "prefacio/intro_progra.html#introducción",
+    "title": "💻 Sobre Programación",
+    "section": "",
+    "text": "“Se dice que uno no comprende verdaderamente algo hasta que puede explicárselo a otro. En realidad, uno no lo entiende completamente hasta que puede explicárselo a una computadora.” – Donald Knuth\n\n\n\n“Automatizar tareas para que la computadora las realice por nosotros.",
+    "crumbs": [
+      "Refactor-me",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>💻 Sobre Programación</span>"
+    ]
+  },
+  {
+    "objectID": "prefacio/intro_progra.html#algoritmos",
+    "href": "prefacio/intro_progra.html#algoritmos",
+    "title": "💻 Sobre Programación",
+    "section": "Algoritmos",
+    "text": "Algoritmos\n\n\n\n\n“La informática se trata de computadores tanto como la astronomía se trata de telescopios.” – Edsger Dijkstra\n\nAl diseñar un programa, el desafío principal es crear y describir un procedimiento que esté completamente bien definido, sin ambigüedades, y que efectivamente resuelva el problema.\nPor tanto, la programación no se centra tanto en los computadores como en resolver problemas de manera estructurada. Su objeto de estudio principal son los algoritmos.\nUn algoritmo es un procedimiento bien definido para resolver un problema. Todos utilizamos algoritmos a diario, incluso sin darnos cuenta:\na) Receta de cocina\nUna receta de cocina es un ejemplo de algoritmo; aunque algunos pasos puedan parecer ambiguos (¿cuánto es «una pizca de sal»? ¿qué significa «agregar a gusto»?), en general las instrucciones están lo suficientemente bien definidas para seguirlas sin problemas.\nLa entrada de una receta son los ingredientes y ciertos datos como: ¿para cuántas personas se está cocinando? El proceso es la serie de pasos para manipular los ingredientes. La salida es el plato terminado.\nEn principio, si una receta está suficientemente bien explicada, cualquiera podría preparar el plato incluso sin conocimientos previos de cocina.\nb) Método de multiplicación\nEl método para multiplicar números a mano que aprendemos en la escuela es otro ejemplo de algoritmo. Siguiendo paso a paso el procedimiento, siempre obtendremos el producto.\nLa entrada del algoritmo de multiplicación son los dos factores. El proceso consiste en una secuencia de pasos donde los dígitos se multiplican, las reservas se suman, y los productos intermedios se suman finalmente. La salida del algoritmo es el producto obtenido.\n\nComponentes de un algoritmo\nConceptualmente, un algoritmo consta de tres elementos principales:\n\nEntrada: Representa los datos iniciales o inputs que el algoritmo utilizará para llevar a cabo su tarea.\nProceso: Consiste en la serie de pasos lógicos y operaciones que el algoritmo realiza utilizando la entrada para producir un resultado.\nSalida: Es el resultado final o output que proporciona el algoritmo después de ejecutar el proceso.\n\nEl proceso se describe mediante una secuencia ordenada de instrucciones. Además, puede incluir estructuras como ciclos, que repiten un conjunto de instrucciones un número determinado de veces, y condicionales, que determinan qué conjunto de instrucciones se ejecutarán según ciertas condiciones.\n\n\nCómo describir un algoritmo\nConsideremos un ejemplo sencillo: un algoritmo para resolver ecuaciones cuadráticas.\nUna ecuación cuadrática es una ecuación de la forma \\(ax^2+bx+c=0\\), donde \\(a, b\\) y \\(c\\) son datos dados, con \\(a\\neq0\\), y \\(x\\) es la incógnita cuyo valor que se desea determinar.\nPor ejemplo, \\(2x^2−5x+2=0\\) es una ecuación cuadrática con \\(a=2\\), \\(b=−5\\) y \\(c=2\\). Sus soluciones son \\(x_1=1/2\\) y \\(x_2=2\\), como se puede comprobar fácilmente al reemplazar estos valores en la ecuación. El problema es cómo obtener estos valores en primer lugar.\nEl problema computacional de resolver una ecuación cuadrática puede ser planteado así:\n\nDados \\(a, b\\) y \\(c\\), entontrar los valores reales de \\(x\\) que satisfacen \\(ax^2+bx+c=0\\).\n\nLa entrada del algoritmo, pues, son los valores \\(a, b\\) y \\(c\\), y la salida son las raíces reales \\(x\\) (que pueden ser cero, una o dos) de la ecuación. En un programa computacional, los valores de \\(a, b\\) y \\(c\\) deberían ser ingresados usando el teclado, y las soluciones \\(x\\) deberían ser mostradas a continuación en la pantalla.\nAl estudiar álgebra aprendemos un algoritmo para resolver este problema. Es lo suficientemente detallado para que pueda usarlo cualquier persona, incluso sin saber qué es una ecuación cuadrática, o para que lo pueda hacer un computador. A continuación veremos algunas maneras de describir el procedimiento.\nLenguaje natural\nDurante el proceso mental de diseñar un algoritmo, es común pensar y describir los pasos en la misma manera en que hablamos a diario. Por ejemplo:\n\nTeniendo los valores de \\(a, b\\) y \\(c\\), calcular el discriminante \\(D=b^2−4ac\\). Si es discriminante es negativo, entonces la ecuación no tiene soluciones reales. Si es discriminante es igual a cero, entonces la ecuación tiene una única solución real, que es \\(x=−b/2a\\). Si el discriminante es positivo, entonces la ecuación tiene dos soluciones reales, que son \\(x_1=(−b−\\sqrt{D})/2a\\) y \\(x_2=(−b+\\sqrt{D})/2a\\).\n\nEsta manera de expresar un algoritmo no es ideal, ya que el lenguaje natural es:\n\nimpreciso: puede tener ambigüedades;\nno universal: personas distintas describirán el proceso de maneras distintas; y\nno estructurado: la descripción no está expresada en función de componentes simples.\n\nAún así, es posible identificar los pasos del algoritmo. Por ejemplo, hay que evaluar la expresión \\(b^2−4ac\\), y ponerle el nombre \\(D\\) a su resultado. Esto se llama asignación, y es un tipo de instrucción que aparece en casi todos los algoritmos. Después de eso, el algoritmo puede usar el nombre \\(D\\) para referirse al valor calculado.\nDiagrama de flujo Un diagrama de flujo es una representación gráfica de un algoritmo. Los pasos son representados por varios tipos de bloques, y el flujo de ejecución es indicado por flechas que conectan los bloques:\n\n\n\nEl inicio y el final del algoritmo son representados con bloques circulares. El algoritmo siempre debe ser capaz llegar desde uno hasta el otro, sin importar por qué camino lo hace. Un algoritmo no puede «quedarse pegado» en la mitad.\nLa entrada y la salida de datos son representadas con romboides, que en la figura de arriba están pintados de verde.\nLos diamantes representan condiciones en las que el algoritmo sigue uno de dos caminos. que están etiquetados con sí o no, dependiendo si la condición es verdadera o falsa.\nTambién puede haber ciclos, representados por flechas que regresan a bloques anteriores. En este ejemplo, no hay ciclos.\nOtras sentencias van dentro de rectángulos, que en la figura están pintados de azul. En este ejemplo, las sentencias son asignaciones, representadas en la forma nombre = valor.\nLos diagramas de flujo no son usados en la práctica para programar, pero son útiles para ilustrar cómo funcionan algoritmos sencillos.\nPseudocódigo\nEl pseudocódigo es una descripción estructurada de un algoritmo basada en ciertas convenciones notacionales. Si bien es muy parecido al código que finalmente se escribirá en el computador, el pseudocódigo está pensado para ser leído por humanos.\nUna manera de escribir el algoritmo para la ecuación cuadrática en pseudocódigo es la siguiente:\nleer a\nleer b\nleer c\n\ndiscriminante = b² - 4ac\n\nsi discriminante &lt; 0:\n    escribir 'La ecuación no tiene soluciones reales'\n\no si no, si discriminante = 0:\n    x = -b / 2a\n    escribir 'La solución única es', x\n\no si no:\n    x1 = (-b - √discriminante) / 2a\n    x2 = (-b + √discriminante) / 2a\n    escribir 'Las dos soluciones reales son:'\n    escribir x1\n    escribir x2\nLas líneas que comienzan con leer y escribir denotan, respectivamente, la entrada y la salida del programa. Los diferentes casos son representados usando sentencias si y o si no. Las asignaciones siguen la misma notación que en el caso de los diagramas de flujo.\nLa notación de pseudocódigo es bien liberal. Uno puede mezclar notación de matemáticas con frases en español, siempre que quede absolutamente claro para el lector qué representa cada una de las líneas del algoritmo.\nCódigo\nEl producto final de la programación siempre debe ser código que pueda ser ejecutado en el computador. Esto requiere describir los algoritmos en un lenguaje de programación. Los lenguajes de programación definen un conjunto limitado de conceptos básicos, en función de los cuales uno puede expresar cualquier algoritmo.\nEn esta asignatura, usaremos el lenguaje de programación Python para escribir nuestros programas.\nEl código en Python para resolver la ecuación cuadrática es el siguiente:\na = float(raw_input('Ingrese a: '))\nb = float(raw_input('Ingrese b: '))\nc = float(raw_input('Ingrese c: '))\n\ndiscriminante = b ** 2 - 4 * a * c\nif discriminante &lt; 0:\n    print 'La ecuacion no tiene soluciones reales'\nelif discriminante == 0:\n    x = -b / (2 * a)\n    print 'La solucion unica es x =', x\nelse:\n    x1 = (-b - (discriminante ** 0.5)) / (2 * a)\n    x2 = (-b + (discriminante ** 0.5)) / (2 * a)\n    print 'Las dos soluciones reales son:'\n    print 'x1 =', x1\n    print 'x2 =', x2\n\nraw_input()\nA partir de ahora, usted aprenderá a entender, escribir y ejecutar códigos como éste.",
+    "crumbs": [
+      "Refactor-me",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>💻 Sobre Programación</span>"
+    ]
+  },
+  {
+    "objectID": "prefacio/intro_progra.html#referencias",
+    "href": "prefacio/intro_progra.html#referencias",
+    "title": "💻 Sobre Programación",
+    "section": "Referencias",
+    "text": "Referencias\n\nProgramación - USM",
+    "crumbs": [
+      "Refactor-me",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>💻 Sobre Programación</span>"
+    ]
+  },
+  {
+    "objectID": "prefacio/intro_python.html",
+    "href": "prefacio/intro_python.html",
+    "title": "🐍 Sobre Python",
+    "section": "",
+    "text": "Popularidad\nPython es uno de los lenguajes de programación más populares y ampliamente utilizados en la actualidad. Según los índices de popularidad de lenguajes de programación, Python ha estado en constante aumento en popularidad en los últimos años.\nEl índice TIOBE, que mide la popularidad de los lenguajes de programación según la frecuencia con la que se buscan en los motores de búsqueda, ha situado a Python entre los tres lenguajes de programación más populares en los últimos años, después de Java y C.\nAdemás, según la encuesta anual Stack Overflow Developer Survey 2023, Python se ubicó entre los cinco lenguajes de programación más populares. Este lenguaje también ha ganado una notable popularidad en campos como la ciencia de datos y el aprendizaje automático, consolidándose como una herramienta indispensable para profesionales y entusiastas de estas áreas.",
+    "crumbs": [
+      "Refactor-me",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>🐍 Sobre Python</span>"
+    ]
+  },
+  {
+    "objectID": "prefacio/intro_python.html#popularidad",
+    "href": "prefacio/intro_python.html#popularidad",
+    "title": "🐍 Sobre Python",
+    "section": "",
+    "text": "¿Es buena la popularidad de Python?\nSí, la popularidad de Python es una señal de su relevancia en el mundo de la programación y puede tener varias ventajas para los usuarios y la comunidad en general.\nEn primer lugar, una mayor popularidad significa que hay una amplia comunidad de desarrolladores y usuarios de Python en todo el mundo, lo que hace que sea más fácil encontrar recursos, soporte y ayuda en línea. Además, una gran comunidad de usuarios también implica que hay una gran cantidad de bibliotecas y módulos disponibles, lo que permite a los usuarios aprovechar el código existente y acelerar el desarrollo.\nEn segundo lugar, la popularidad de Python lo convierte en una habilidad valiosa en el mercado laboral, con una amplia gama de oportunidades de carrera en diferentes sectores, incluyendo la ciencia de datos, la inteligencia artificial, el desarrollo web, la automatización y la programación de sistemas.\nPor último, la popularidad de Python también puede significar que hay una gran inversión en su desarrollo y mejora continua, lo que resulta en una mayor calidad y eficiencia del lenguaje de programación.\nEn general, la popularidad de Python es una buena señal y es una de las razones por las que se ha convertido en un lenguaje de programación tan popular y utilizado en todo el mundo.",
+    "crumbs": [
+      "Refactor-me",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>🐍 Sobre Python</span>"
+    ]
+  },
+  {
+    "objectID": "prefacio/intro_python.html#librerías-y-frameworks",
+    "href": "prefacio/intro_python.html#librerías-y-frameworks",
+    "title": "🐍 Sobre Python",
+    "section": "Librerías y frameworks",
+    "text": "Librerías y frameworks\n\n\n\nUna gran ventaja de Python es la amplia selección de librerías y frameworks que ofrece.\nHay librerías para distintos tópicos:\n\nManipulación de datos\nVisualización de datos\nAprendizaje automático\nCiencia de los datos\nProcesamiento natural del lenguaje\nBig Data\n\nLo mismo es cierto para los frameworks, que ayudan a despegar su proyecto y le ahorran tiempo y esfuerzo. Hay una variedad de marcos para elegir, dependiendo de sus necesidades, por ejemplo, para el desarrollo web tenemos:\n\nDjango: Es un framework de Python que se utiliza para el desarrollo de aplicaciones web. Ofrece una arquitectura de modelo-vista-controlador (MVC) y herramientas para la administración de bases de datos, la autenticación y la seguridad.\nFlask: Es un framework de Python que se utiliza para el desarrollo de aplicaciones web de menor escala y más simples. Ofrece una amplia gama de herramientas y extensiones para la creación de aplicaciones web.",
+    "crumbs": [
+      "Refactor-me",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>🐍 Sobre Python</span>"
+    ]
+  },
+  {
+    "objectID": "prefacio/intro_python.html#performance",
+    "href": "prefacio/intro_python.html#performance",
+    "title": "🐍 Sobre Python",
+    "section": "Performance",
+    "text": "Performance\nPython es un lenguaje de programación interpretado de alto nivel, lo que significa que su rendimiento puede ser más lento que otros lenguajes de programación de menor nivel, como C o C++. Sin embargo, Python ofrece varias técnicas y herramientas para mejorar el rendimiento y la eficiencia de sus programas. Aquí hay algunas de ellas:\n\nCompilación JIT: Python ofrece la opción de utilizar un compilador Just-In-Time (JIT), como PyPy, que puede mejorar significativamente el rendimiento de los programas al compilar el código en tiempo de ejecución.\nCPython: Python también se puede ejecutar en una implementación de C llamada CPython, lo que puede mejorar el rendimiento de algunos programas.\nUso de bibliotecas nativas: Python ofrece la capacidad de usar bibliotecas nativas, como NumPy, que están escritas en lenguajes de bajo nivel como C y Fortran para realizar operaciones numéricas de manera más eficiente.\nUso de estructuras de datos eficientes: Python ofrece varias estructuras de datos, como las listas y los diccionarios, que se pueden usar de manera eficiente para mejorar el rendimiento de los programas.\nUso de algoritmos eficientes: El uso de algoritmos eficientes también puede mejorar significativamente el rendimiento de los programas en Python.\n\nEn general, Python puede ofrecer un buen rendimiento en comparación con otros lenguajes de programación interpretados, y hay varias técnicas y herramientas disponibles para mejorar aún más su rendimiento y eficiencia. Sin embargo, es importante recordar que el rendimiento dependerá en gran medida del uso que se le dé al lenguaje y de cómo se escriban los programas.",
+    "crumbs": [
+      "Refactor-me",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>🐍 Sobre Python</span>"
+    ]
+  },
+  {
+    "objectID": "prefacio/intro_python.html#referencia",
+    "href": "prefacio/intro_python.html#referencia",
+    "title": "🐍 Sobre Python",
+    "section": "Referencia",
+    "text": "Referencia\n\nTutorial de Python 3.8 documentation",
+    "crumbs": [
+      "Refactor-me",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>🐍 Sobre Python</span>"
     ]
   }
 ]

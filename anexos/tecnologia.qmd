@@ -1,0 +1,8 @@
+# Sobre la página
+
+Esta página fue creada con quarto y la extensión `quarto-pyodide`
+
+![Filtro `quarto-pyodide` en acción](https://i.imgur.com/gzAyV8H.gif)
+
+Puedes ver el ejemplo completo de la extensión en acción [aquí](https://quarto.thecoatlessprofessor.com/pyodide/examples/readme).
+

@@ -1,0 +1,162 @@
+### 🚀 Taller 02: Python en la Ciencia Tradicional
+
+Python ha demostrado ser una herramienta invaluable en diversas ramas de la ciencia tradicional. Su simplicidad, combinada con su potencia, permite a los científicos y profesionales abordar problemas complejos de manera eficiente. Desde cálculos matemáticos y simulaciones físicas hasta análisis estadísticos, Python proporciona un conjunto robusto de bibliotecas y herramientas que facilitan estas tareas.
+
+## 1. 🔬 Física
+
+Python se usa ampliamente en la física para simular sistemas y analizar datos experimentales.
+
+### Simulación de Movimiento
+
+Simulación del movimiento de un objeto bajo la influencia de la gravedad usando la biblioteca `matplotlib` para la visualización:
+
+```{pyodide-python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Parámetros de la simulación
+g = 9.8  # aceleración debido a la gravedad (m/s^2)
+t = np.linspace(0, 5, num=100)  # tiempo (s)
+v0 = 20  # velocidad inicial (m/s)
+theta = np.radians(45)  # ángulo de lanzamiento (grados)
+
+# Componentes de la velocidad inicial
+vx = v0 * np.cos(theta)
+vy = v0 * np.sin(theta)
+
+# Trayectoria
+x = vx * t
+y = vy * t - 0.5 * g * t**2
+
+# Gráfica de la trayectoria
+plt.figure(figsize=(10, 6))
+plt.plot(x, y)
+plt.title('Trayectoria de un proyectil')
+plt.xlabel('Distancia horizontal (m)')
+plt.ylabel('Altura (m)')
+plt.ylim(bottom=0)
+plt.show()
+```
+
+### Simulación de Movimiento Armónico Simple
+
+Simulación del movimiento de un oscilador armónico simple:
+
+```{pyodide-python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Parámetros del oscilador
+m = 1.0  # masa (kg)
+k = 10.0  # constante de resorte (N/m)
+omega = np.sqrt(k / m)  # frecuencia angular (rad/s)
+A = 1.0  # amplitud (m)
+t = np.linspace(0, 10, num=500)  # tiempo (s)
+
+# Posición como función del tiempo
+x = A * np.cos(omega * t)
+
+# Gráfica de la posición
+plt.figure(figsize=(10, 6))
+plt.plot(t, x)
+plt.title('Movimiento Armónico Simple')
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Posición (m)')
+plt.show()
+```
+
+### Ley de Coulomb
+
+Cálculo de la fuerza entre dos cargas usando la ley de Coulomb:
+
+```{pyodide-python}
+def fuerza_coulomb(q1, q2, r):
+    k = 8.99e9  # constante de Coulomb (N·m²/C²)
+    F = k * abs(q1 * q2) / r**2
+    return F
+
+# Ejemplo de uso
+q1 = 1e-6  # carga 1 (C)
+q2 = -2e-6  # carga 2 (C)
+r = 0.05  # distancia entre las cargas (m)
+fuerza = fuerza_coulomb(q1, q2, r)
+print(f"La fuerza entre las cargas es: {fuerza} N")
+```
+
+## 2. 📈 Estadística y Probabilidad
+
+Python proporciona herramientas robustas para el análisis estadístico y la probabilidad, utilizando bibliotecas como `pandas`, `scipy` y `numpy`. Los siguientes ejercicios están diseñados para estudiantes de secundaria, simplificando conceptos complejos en ejemplos prácticos y fáciles de entender.
+
+### Generación de Números Aleatorios
+
+Generar una lista de números aleatorios y calcular su media:
+
+```{pyodide-python}
+import numpy as np
+
+# Generar 10 números aleatorios entre 1 y 100
+numeros_aleatorios = np.random.randint(1, 101, 10)
+
+# Calcular la media
+media = np.mean(numeros_aleatorios)
+print(f"Números aleatorios: {numeros_aleatorios}")
+print(f"Media: {media}")
+```
+
+### Lanzamiento de Moneda
+
+Simular el lanzamiento de una moneda y calcular la probabilidad de obtener cara o cruz:
+
+```{pyodide-python}
+import numpy as np
+
+# Simular 100 lanzamientos de una moneda
+lanzamientos = np.random.choice(['Cara', 'Cruz'], 100)
+
+# Calcular la frecuencia de cada resultado
+caras = np.sum(lanzamientos == 'Cara')
+cruces = np.sum(lanzamientos == 'Cruz')
+
+# Calcular las probabilidades
+prob_cara = caras / 100
+prob_cruz = cruces / 100
+
+print(f"Caras: {caras}, Cruces: {cruces}")
+print(f"Probabilidad de Cara: {prob_cara}")
+print(f"Probabilidad de Cruz: {prob_cruz}")
+```
+
+### Lanzamiento de Dados
+
+Simular el lanzamiento de dos dados y calcular la frecuencia de cada suma posible:
+
+```{pyodide-python}
+import numpy as np
+
+# Simular 100 lanzamientos de dos dados
+dados1 = np.random.randint(1, 7, 100)
+dados2 = np.random.randint(1, 7, 100)
+sumas = dados1 + dados2
+
+# Calcular la frecuencia de cada suma
+frecuencias = {suma: np.sum(sumas == suma) for suma in range(2, 13)}
+
+print("Frecuencia de cada suma:")
+for suma, frecuencia in frecuencias.items():
+    print(f"Suma {suma}: {frecuencia}")
+```
+
+### Probabilidad Condicional
+
+Calcular la probabilidad condicional usando un ejemplo de selección de bolas de una urna:
+
+```{pyodide-python}
+# Probabilidades iniciales
+P_A = 0.3  # Probabilidad de elegir una bola roja
+P_B = 0.2  # Probabilidad de elegir una bola azul
+P_B_dado_A = 0.5  # Probabilidad de elegir una bola azul dado que ya se eligió una roja
+
+# Cálculo de la probabilidad condicional usando el teorema de Bayes
+P_A_dado_B = (P_B_dado_A * P_A) / P_B
+print(f"La probabilidad de elegir una bola roja dado que se eligió una azul es: {P_A_dado_B}")
+```

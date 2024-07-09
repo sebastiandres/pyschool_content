@@ -4,20 +4,39 @@ project:
   
 book:
   title: "PySchool"
-  subtitle: "Python"
   author: "Python Chile"
-  date: "30/08/2024"
+  date: "08/02/2024"
+  favicon: "images/pc.png"
   chapters:
     - index.qmd
-    - taller_1/taller_1.qmd
-    - taller_2A/taller_2A.qmd
-    - taller_2B/taller_2B.qmd
-    - taller_2C/taller_2C.qmd
-    - template/quarto_template.qmd
+    - part: Talleres
+      chapters:
+        - talleres/taller_1.qmd
+        - talleres/taller_2.qmd
+        - talleres/taller_3.qmd
+    - part: Anexos
+      chapters:
+        - anexos/seguir_aprendiendo.qmd
+        - anexos/tecnologia.qmd
+        - anexos/autoria_y_colaborar.qmd
+    - part: Refactor-me
+      chapters:
+        - prefacio/intro_progra.qmd
+        - prefacio/intro_python.qmd
+
+index:
+  qmd:
+lang: es
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
+    number-sections: false
+  epub:
+    cover-image: images/cover.png
+
 
 filters: 
   - pyodide
+
+sin-enumeracion: true  # Esta línea es opcional para indicar que no se desea enumeración

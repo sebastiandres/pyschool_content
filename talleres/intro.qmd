@@ -1,0 +1,13 @@
+# Talleres
+
+En esta sección de talleres, nos enfocaremos en aprender los conceptos básicos de Python de una manera interactiva y práctica utilizando Quarto-Pyodide. Quarto-Pyodide nos permitirá experimentar con el código en tiempo real directamente en nuestro navegador, facilitando el proceso de aprendizaje y permitiendo una comprensión más profunda a través de la práctica. 🌐💻
+
+## 🎯 Objetivos de los Talleres
+
+1. **🧠 Fundamentos de Python**: Comenzaremos con los conceptos básicos, incluyendo la aritmética elemental y las estructuras de control de flujo. Estos fundamentos son esenciales para desarrollar una base sólida en programación.
+
+2. **🔍 Aplicaciones Prácticas**: A medida que avancemos, abordaremos problemas reales de diversas disciplinas científicas. Esto incluye ejemplos del mundo real que demuestran cómo Python puede ser utilizado para resolver problemas prácticos.
+
+3. **📊 Ciencia de Datos**: Una parte importante de estos talleres estará dedicada a la ciencia de datos. Exploraremos cómo Python es utilizado para analizar datos, visualizar información y construir modelos predictivos.
+
+¡Prepárate para una experiencia de aprendizaje dinámica y enriquecedora! 🚀✨

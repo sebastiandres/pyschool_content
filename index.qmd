@@ -1,6 +1,15 @@
-# Sobre la PySchool {.unnumbered}
+# 🏠 Inicio
 
-La [PySchool](http://www.pyschool.cl) es un proyecto para motivar a aprender el lenguaje de programación Python.
-Esta página contiene ejemplos autocontenidos. 
+Este espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.
 
-Realizado por el equipo de Python Chile, 2024.
+<center><img src="images/cover.png" width = "100"></center>
+
+PySchool es una iniciativa de la organización Python Chile y DUOC. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.
+
+LOGOS PYTHON CHILE Y DUOC
+
+La PySchool tendrá lugar el viernes 2 de Agosto, en el DUOC Valparaíso (lugar.), para alumnos de distintos colegios de la V Región. Sin embargo, el material está disponible en línea para que cualquier interesado pueda participar.
+
+## Actividades
+
+TABLA DE LAS ACTIVIDADES

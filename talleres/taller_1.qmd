@@ -1,0 +1,187 @@
+### 🚀 Taller 01: Introducción a Python
+
+En este taller, nos enfocaremos en aprender los conceptos básicos de Python de una manera divertida e interactiva.
+
+::: {.callout-tip collapse="true"}
+## Nota para Talleristas
+
+Este es un ejemplo de nota para tallerista.
+:::
+
+## 1. 👋 Hola Mundo
+El clásico primer programa en cualquier lenguaje de programación. Imprimiremos "Hola, Mundo" en la pantalla.
+
+```{pyodide-python}
+print("Hola, Mundo")
+```
+
+## 2. 🧮 Calculadora Básica
+Una simple calculadora que realiza operaciones básicas como suma, resta, multiplicación y división.
+
+```{pyodide-python}
+def calculadora(operacion, num1, num2):
+    if operacion == '+':
+        return f"Resultado: {num1 + num2}"
+    elif operacion == '-':
+        return f"Resultado: {num1 - num2}"
+    elif operacion == '*':
+        return f"Resultado: {num1 * num2}"
+    elif operacion == '/':
+        if num2 != 0:
+            return f"Resultado: {num1 / num2}"
+        else:
+            return "Error: División por cero"
+    else:
+        return "Operación no válida"
+
+# Ejemplo de uso
+operacion = '+'
+num1 = 10
+num2 = 5
+resultado = calculadora(operacion, num1, num2)
+print(resultado)
+```
+
+## 3. 📅 Verificación de Año Bisiesto
+Un programa para determinar si un año es bisiesto.
+
+```{pyodide-python}
+def es_bisiesto(anio):
+    if (anio % 4 == 0 and anio % 100 != 0) or (anio % 400 == 0):
+        return True
+    else:
+        return False
+
+# Ejemplo de uso
+anio = 2024
+if es_bisiesto(anio):
+    print(f"{anio} es un año bisiesto")
+else:
+    print(f"{anio} no es un año bisiesto")
+```
+
+## 4. 🔢 Adivina el Número
+Un juego donde la computadora elige un número al azar y el usuario intenta adivinarlo.
+
+```{pyodide-python}
+import random
+
+def adivina_el_numero(numero_secreto, intentos_usuario):
+    intentos = 0
+    adivinado = False
+
+    for intento in intentos_usuario:
+        intentos += 1
+        if intento < numero_secreto:
+            print("Muy bajo")
+        elif intento > numero_secreto:
+            print("Muy alto")
+        else:
+            print(f"¡Correcto! Adivinaste el número en {intentos} intentos.")
+            adivinado = True
+            break
+
+    if not adivinado:
+        print(f"No adivinaste el número en {len(intentos_usuario)} intentos. El número era {numero_secreto}.")
+
+# Ejemplo de uso
+numero_secreto = random.randint(1, 100)
+intentos_usuario = [50, 25, 75, 60, 90]
+adivina_el_numero(numero_secreto, intentos_usuario)
+```
+
+## 5. 📜 Conjetura de Collatz
+Un programa que implementa la Conjetura de Collatz, también conocida como la conjetura 3n + 1.
+
+```{pyodide-python}
+def conjetura_de_collatz(n):
+    resultado = []
+    while n != 1:
+        resultado.append(n)
+        if n % 2 == 0:
+            n = n // 2
+        else:
+            n = 3 * n + 1
+    resultado.append(n)
+    return resultado
+
+# Ejemplo de uso
+numero = 6
+print(" -> ".join(map(str, conjetura_de_collatz(numero))))
+```
+
+## 6. ➕ Ejercicios de Aritmética
+
+### Suma de Números
+```{pyodide-python}
+def suma_numeros(n):
+    suma = 0
+    for i in range(1, n+1):
+        suma += i
+    return suma
+
+# Ejemplo de uso
+n = 10
+print(f"La suma de los números de 1 a {n} es: {suma_numeros(n)}")
+```
+
+### Factorial de un Número
+```{pyodide-python}
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+# Ejemplo de uso
+n = 5
+print(f"El factorial de {n} es: {factorial(n)}")
+```
+
+## 7. 📚 Ejemplos Adicionales
+
+### Conversión de Temperatura
+Un programa para convertir grados Celsius a Fahrenheit.
+
+```{pyodide-python}
+def celsius_a_fahrenheit(celsius):
+    return (celsius * 9/5) + 32
+
+# Ejemplo de uso
+celsius = 25
+print(f"{celsius} grados Celsius son {celsius_a_fahrenheit(celsius)} grados Fahrenheit")
+```
+
+### Cálculo del Índice de Masa Corporal (IMC)
+Un programa para calcular el IMC de una persona.
+
+```{pyodide-python}
+def calcular_imc(peso, altura):
+    return peso / (altura ** 2)
+
+# Ejemplo de uso
+peso = 70  # kg
+altura = 1.75  # m
+print(f"El IMC es: {calcular_imc(peso, altura):.2f}")
+```
+
+### Número Primo
+Un programa para verificar si un número es primo.
+
+```{pyodide-python}
+def es_primo(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+# Ejemplo de uso
+numero = 29
+if es_primo(numero):
+    print(f"{numero} es un número primo")
+else:
+    print(f"{numero} no es un número primo")
+```
+

@@ -1,0 +1,12 @@
+# Prefacio
+
+En esta sección, exploraremos dos temas fundamentales que son esenciales en el campo de la tecnología y la informática: la programación y el lenguaje de programación Python.
+
+## 💻 Sobre Programación
+
+La programación es la base sobre la cual se construyen todas las aplicaciones y sistemas que usamos en nuestra vida diaria. Es el proceso de diseñar y construir un conjunto de instrucciones que una computadora puede seguir para realizar una tarea específica. A través de la programación, podemos resolver problemas, automatizar procesos y crear soluciones innovadoras que mejoran nuestra eficiencia y productividad. En este apartado, introduciremos los conceptos básicos de la programación, sus principios fundamentales y las mejores prácticas para escribir código limpio y efectivo.
+
+## 🐍 Sobre Python
+
+Python es uno de los lenguajes de programación más populares y versátiles en la actualidad. Con una sintaxis sencilla y clara, es ideal tanto para principiantes como para programadores experimentados. Python se utiliza en una amplia variedad de aplicaciones, desde desarrollo web y análisis de datos hasta inteligencia artificial y automatización de tareas. En esta sección, nos adentraremos en las características que hacen de Python una herramienta poderosa y accesible, proporcionando ejemplos prácticos y ejercicios para que puedas empezar a escribir tus propios programas.
+
