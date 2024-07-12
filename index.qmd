@@ -3,14 +3,14 @@
 Este espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.
 
 <center>
-<img src="images/cover.png" width="300">
+<img src="./images/cover.png" width="300">
 </center>
 
 PySchool es una iniciativa de la organización Python Chile y DUOC. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.
 
 <center>
-<img src="images/pythonchile.png" width="270">
-<img src="images/DUOC_1.png" width="300">
+<img src="./images/pythonchile.png" width="270">
+<img src="./images/DUOC_1.png" width="300">
 </center>
 
 La PySchool tendrá lugar el viernes 2 de Agosto, en DUOC Sede Valparaíso, para alumnos invitados de distintos colegios de la V Región. Sin embargo, el material está disponible en línea para que cualquier interesado pueda participar.
