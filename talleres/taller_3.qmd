@@ -1,4 +1,4 @@
-# 🚀 Taller 03: Python en la Ciencia Datos
+# Python en Ciencia de Datos
 
 En este taller, utilizaremos Python para explorar y analizar un conjunto de datos de Pokémon. Los estudiantes de secundaria podrán ver cómo se utiliza la ciencia de datos para obtener información interesante y aprender a visualizar datos de manera efectiva.
 

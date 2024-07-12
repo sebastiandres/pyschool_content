@@ -1,9 +1,9 @@
-# 🏠 Inicio
+# Inicio
 
 Este espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.
 
 <center>
-<img src="images/cover.png" width="100">
+<img src="images/cover.png" width="300">
 </center>
 
 PySchool es una iniciativa de la organización Python Chile y DUOC. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.
@@ -25,6 +25,6 @@ La PySchool tendrá lugar el viernes 2 de Agosto, en DUOC Sede Valparaíso, para
 | 12:00  | 13:00| Taller 2                 |
 | 13:00  | 1:30 | Cierre                   |
 
-El taller 1 será común para todos y se tratará de [Introducción a Python](talleres/taller_1.html).
+El taller 1 será común para todos: [Introducción a Python](./talleres/taller_1.html).
 
-El taller 2 puede ser de [Python en Ciencias](talleres/taller_2.html) o [Python en Ciencia de Datos](talleres/taller_3.qmd.html), según hayan elegido.    
+El taller 2 puede ser de [Python en Ciencias](./talleres/taller_2.html) o [Python en Ciencia de Datos](./talleres/taller_3.qmd.html), según hayan elegido.    

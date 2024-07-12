@@ -1,11 +1,11 @@
-### 🚀 Taller 01: Introducción a Python
+### Introducción a Python
 
 En este taller, nos enfocaremos en aprender los conceptos básicos de Python de una manera divertida e interactiva.
 
 ::: {.callout-tip collapse="true"}
 ## Nota para Talleristas
 
-Este es un ejemplo de nota para tallerista.
+Este es un ejemplo de nota para Cristian Lopez.
 :::
 
 ## 1. 👋 Hola Mundo

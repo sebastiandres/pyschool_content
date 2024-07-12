@@ -1,4 +1,4 @@
-### 🚀 Taller 02: Python en la Ciencia Tradicional
+### Python en Ciencia
 
 Python ha demostrado ser una herramienta invaluable en diversas ramas de la ciencia tradicional. Su simplicidad, combinada con su potencia, permite a los científicos y profesionales abordar problemas complejos de manera eficiente. Desde cálculos matemáticos y simulaciones físicas hasta análisis estadísticos, Python proporciona un conjunto robusto de bibliotecas y herramientas que facilitan estas tareas.
 

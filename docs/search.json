@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "PySchool",
     "section": "",
-    "text": "🏠 Inicio\nEste espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.\nPySchool es una iniciativa de la organización Python Chile y DUOC. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nLa PySchool tendrá lugar el viernes 2 de Agosto, en DUOC Sede Valparaíso, para alumnos invitados de distintos colegios de la V Región. Sin embargo, el material está disponible en línea para que cualquier interesado pueda participar.",
+    "text": "Inicio\nEste espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.\nPySchool es una iniciativa de la organización Python Chile y DUOC. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nLa PySchool tendrá lugar el viernes 2 de Agosto, en DUOC Sede Valparaíso, para alumnos invitados de distintos colegios de la V Región. Sin embargo, el material está disponible en línea para que cualquier interesado pueda participar.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Inicio</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Inicio</span>"
     ]
   },
   {
@@ -14,174 +14,174 @@
     "href": "index.html#programa-de-actividades",
     "title": "PySchool",
     "section": "Programa de actividades",
-    "text": "Programa de actividades\n\n\n\nInicio\nFin\nActividad\n\n\n\n\n9:00\n9:30\nAcreditación\n\n\n9:30\n10:15\nBienvenida y panel pythonistas\n\n\n10:30\n11:30\nTaller 1\n\n\n12:00\n13:00\nTaller 2\n\n\n13:00\n1:30\nCierre\n\n\n\nEl taller 1 será común para todos y se tratará de Introducción a Python.\nEl taller 2 puede ser de Python en Ciencias o Python en Ciencia de Datos, según hayan elegido.",
+    "text": "Programa de actividades\n\n\n\nInicio\nFin\nActividad\n\n\n\n\n9:00\n9:30\nAcreditación\n\n\n9:30\n10:15\nBienvenida y panel pythonistas\n\n\n10:30\n11:30\nTaller 1\n\n\n12:00\n13:00\nTaller 2\n\n\n13:00\n1:30\nCierre\n\n\n\nEl taller 1 será común para todos: Introducción a Python.\nEl taller 2 puede ser de Python en Ciencias o Python en Ciencia de Datos, según hayan elegido.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>🏠 Inicio</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Inicio</span>"
     ]
   },
   {
     "objectID": "talleres/taller_1.html",
     "href": "talleres/taller_1.html",
-    "title": "🚀 Taller 01: Introducción a Python",
+    "title": "Introducción a Python",
     "section": "",
     "text": "1. 👋 Hola Mundo\nEl clásico primer programa en cualquier lenguaje de programación. Imprimiremos “Hola, Mundo” en la pantalla.",
     "crumbs": [
       "Talleres",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a Python</span>"
     ]
   },
   {
     "objectID": "talleres/taller_1.html#hola-mundo",
     "href": "talleres/taller_1.html#hola-mundo",
-    "title": "🚀 Taller 01: Introducción a Python",
+    "title": "Introducción a Python",
     "section": "",
     "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Talleres",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a Python</span>"
     ]
   },
   {
     "objectID": "talleres/taller_1.html#calculadora-básica",
     "href": "talleres/taller_1.html#calculadora-básica",
-    "title": "🚀 Taller 01: Introducción a Python",
+    "title": "Introducción a Python",
     "section": "2. 🧮 Calculadora Básica",
     "text": "2. 🧮 Calculadora Básica\nUna simple calculadora que realiza operaciones básicas como suma, resta, multiplicación y división.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Talleres",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a Python</span>"
     ]
   },
   {
     "objectID": "talleres/taller_1.html#verificación-de-año-bisiesto",
     "href": "talleres/taller_1.html#verificación-de-año-bisiesto",
-    "title": "🚀 Taller 01: Introducción a Python",
+    "title": "Introducción a Python",
     "section": "3. 📅 Verificación de Año Bisiesto",
     "text": "3. 📅 Verificación de Año Bisiesto\nUn programa para determinar si un año es bisiesto.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Talleres",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a Python</span>"
     ]
   },
   {
     "objectID": "talleres/taller_1.html#adivina-el-número",
     "href": "talleres/taller_1.html#adivina-el-número",
-    "title": "🚀 Taller 01: Introducción a Python",
+    "title": "Introducción a Python",
     "section": "4. 🔢 Adivina el Número",
     "text": "4. 🔢 Adivina el Número\nUn juego donde la computadora elige un número al azar y el usuario intenta adivinarlo.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Talleres",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a Python</span>"
     ]
   },
   {
     "objectID": "talleres/taller_1.html#conjetura-de-collatz",
     "href": "talleres/taller_1.html#conjetura-de-collatz",
-    "title": "🚀 Taller 01: Introducción a Python",
+    "title": "Introducción a Python",
     "section": "5. 📜 Conjetura de Collatz",
     "text": "5. 📜 Conjetura de Collatz\nUn programa que implementa la Conjetura de Collatz, también conocida como la conjetura 3n + 1.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Talleres",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a Python</span>"
     ]
   },
   {
     "objectID": "talleres/taller_1.html#ejercicios-de-aritmética",
     "href": "talleres/taller_1.html#ejercicios-de-aritmética",
-    "title": "🚀 Taller 01: Introducción a Python",
+    "title": "Introducción a Python",
     "section": "6. ➕ Ejercicios de Aritmética",
     "text": "6. ➕ Ejercicios de Aritmética\n\nSuma de Números\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nFactorial de un Número\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Talleres",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a Python</span>"
     ]
   },
   {
     "objectID": "talleres/taller_1.html#ejemplos-adicionales",
     "href": "talleres/taller_1.html#ejemplos-adicionales",
-    "title": "🚀 Taller 01: Introducción a Python",
+    "title": "Introducción a Python",
     "section": "7. 📚 Ejemplos Adicionales",
     "text": "7. 📚 Ejemplos Adicionales\n\nConversión de Temperatura\nUn programa para convertir grados Celsius a Fahrenheit.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nCálculo del Índice de Masa Corporal (IMC)\nUn programa para calcular el IMC de una persona.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nNúmero Primo\nUn programa para verificar si un número es primo.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Talleres",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>🚀 Taller 01: Introducción a Python</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a Python</span>"
     ]
   },
   {
     "objectID": "talleres/taller_2.html",
     "href": "talleres/taller_2.html",
-    "title": "🚀 Taller 02: Python en la Ciencia Tradicional",
+    "title": "Python en Ciencia",
     "section": "",
     "text": "1. 🔬 Física\nPython se usa ampliamente en la física para simular sistemas y analizar datos experimentales.",
     "crumbs": [
       "Talleres",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>🚀 Taller 02: Python en la Ciencia Tradicional</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Python en Ciencia</span>"
     ]
   },
   {
     "objectID": "talleres/taller_2.html#física",
     "href": "talleres/taller_2.html#física",
-    "title": "🚀 Taller 02: Python en la Ciencia Tradicional",
+    "title": "Python en Ciencia",
     "section": "",
     "text": "Simulación de Movimiento\nSimulación del movimiento de un objeto bajo la influencia de la gravedad usando la biblioteca matplotlib para la visualización:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nSimulación de Movimiento Armónico Simple\nSimulación del movimiento de un oscilador armónico simple:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLey de Coulomb\nCálculo de la fuerza entre dos cargas usando la ley de Coulomb:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Talleres",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>🚀 Taller 02: Python en la Ciencia Tradicional</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Python en Ciencia</span>"
     ]
   },
   {
     "objectID": "talleres/taller_2.html#estadística-y-probabilidad",
     "href": "talleres/taller_2.html#estadística-y-probabilidad",
-    "title": "🚀 Taller 02: Python en la Ciencia Tradicional",
+    "title": "Python en Ciencia",
     "section": "2. 📈 Estadística y Probabilidad",
     "text": "2. 📈 Estadística y Probabilidad\nPython proporciona herramientas robustas para el análisis estadístico y la probabilidad, utilizando bibliotecas como pandas, scipy y numpy. Los siguientes ejercicios están diseñados para estudiantes de secundaria, simplificando conceptos complejos en ejemplos prácticos y fáciles de entender.\n\nGeneración de Números Aleatorios\nGenerar una lista de números aleatorios y calcular su media:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLanzamiento de Moneda\nSimular el lanzamiento de una moneda y calcular la probabilidad de obtener cara o cruz:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLanzamiento de Dados\nSimular el lanzamiento de dos dados y calcular la frecuencia de cada suma posible:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nProbabilidad Condicional\nCalcular la probabilidad condicional usando un ejemplo de selección de bolas de una urna:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Talleres",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>🚀 Taller 02: Python en la Ciencia Tradicional</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Python en Ciencia</span>"
     ]
   },
   {
     "objectID": "talleres/taller_3.html",
     "href": "talleres/taller_3.html",
-    "title": "🚀 Taller 03: Python en la Ciencia Datos",
+    "title": "Python en Ciencia de Datos",
     "section": "",
     "text": "📊 Exploración y Visualización de Datos\nPrimero, importemos las bibliotecas necesarias y carguemos el conjunto de datos de Pokémon.",
     "crumbs": [
       "Talleres",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 03: Python en la Ciencia Datos</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Python en Ciencia de Datos</span>"
     ]
   },
   {
     "objectID": "talleres/taller_3.html#exploración-y-visualización-de-datos",
     "href": "talleres/taller_3.html#exploración-y-visualización-de-datos",
-    "title": "🚀 Taller 03: Python en la Ciencia Datos",
+    "title": "Python en Ciencia de Datos",
     "section": "",
     "text": "Cargar el Conjunto de Datos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nDescripción del Conjunto de Datos\nObtener una visión general de las estadísticas del conjunto de datos.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Talleres",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 03: Python en la Ciencia Datos</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Python en Ciencia de Datos</span>"
     ]
   },
   {
     "objectID": "talleres/taller_3.html#análisis-y-visualización-de-datos",
     "href": "talleres/taller_3.html#análisis-y-visualización-de-datos",
-    "title": "🚀 Taller 03: Python en la Ciencia Datos",
+    "title": "Python en Ciencia de Datos",
     "section": "📈 Análisis y Visualización de Datos",
     "text": "📈 Análisis y Visualización de Datos\n\nTipos de Pokémon\nVeamos cuántos Pokémon de cada tipo hay en el conjunto de datos.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nEstadísticas de Ataque y Defensa\nComparar las estadísticas de ataque y defensa de los Pokémon.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPromedio de Estadísticas por Tipo\nCalcular y visualizar el promedio de las estadísticas principales de los Pokémon agrupados por tipo.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPeso y Altura de los Pokémon\nExplorar la relación entre el peso y la altura de los Pokémon (utilizando las estadísticas de Weight y Height si estuvieran disponibles).\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Talleres",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 03: Python en la Ciencia Datos</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Python en Ciencia de Datos</span>"
     ]
   },
   {
     "objectID": "talleres/taller_3.html#tablas-y-gráficos-interactivos",
     "href": "talleres/taller_3.html#tablas-y-gráficos-interactivos",
-    "title": "🚀 Taller 03: Python en la Ciencia Datos",
+    "title": "Python en Ciencia de Datos",
     "section": "📊 Tablas y Gráficos Interactivos",
     "text": "📊 Tablas y Gráficos Interactivos\n\nTabla de Pokémon con Mayor Ataque\nMostrar los 10 Pokémon con la mayor estadística de ataque.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nTabla de Pokémon con Mayor Defensa\nMostrar los 10 Pokémon con la mayor estadística de defensa.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Talleres",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>🚀 Taller 03: Python en la Ciencia Datos</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Python en Ciencia de Datos</span>"
     ]
   },
   {
