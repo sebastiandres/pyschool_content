@@ -1,19 +1,109 @@
 ### Introducción a Python
 
-En este taller, nos enfocaremos en aprender los conceptos básicos de Python de una manera divertida e interactiva.
+En este taller, nos enfocaremos en ilustrar algunos conceptos básicos de Python mediante distintos ejemplos. 
 
-::: {.callout-tip collapse="true"}
-## Nota para Talleristas
+## Programación
 
-Este es un ejemplo de nota para Cristian Lopez.
-:::
+Si tuviéramos que resumir el propósito de la programación en una frase, sería:
+
+> “Automatizar tareas para que la computadora las realice por nosotros.
+
+Cualquier labor tediosa y repetitiva debería ser delegada a una computadora, permitiendo así que los humanos se enfoquen en los problemas verdaderamente interesantes: aquellos que demandan creatividad, pensamiento crítico y subjetividad.
+
+> “Se dice que uno no comprende verdaderamente algo hasta que puede explicárselo a otro. En realidad, uno no lo entiende completamente hasta que puede explicárselo a una computadora.” -- Donald Knuth
+
+La programación es la forma en la cual podemos detallarle a una computadora el paso a paso que queremos que realice. ¡Cuando una computadora no hace lo que queríamos, es porque no logramos explicitarlo de manera adecuada!
+
+## Python
+
+Python es un lenguaje de programación que ha crecido en popularidad debido a 3 razones principales:
+
+1. Es fácil de entender: un programa bien escrito se parece mucho al inglés.
+2. Posee muchas librerías por defecto: toda instalación de python viene con librerías para un amplio tipo de aplicaciones (math, random, os, sys, time, datetime, etc.)
+3. Es extensible: 
+
+## Ejecutándo código Python
+
+Para utilizar Python en una computadora, es necesario:
+1. Tener instalada alguna versión de Python
+2. Escribir tu programa en un archivo (por ejemplo "mi_programa.py")
+3. Ejecutar el programa con Python ("python mi_programa.py")
+
+A medida que Python se fue haciendo más popular, aparecieron otras alternativas de uso como los notebooks (Jupyter Nobooks, Google Colab y otros).
+
+Por simplicidad, en la PySchool utilizaremos una tecnología reciente que permite *emular* la ejecución de Python en una página web. Esto es práctico pues esta página puede ser utilizada en cualquier dispositivo conectado a internet y no requiere instalaciones adicionales por parte del usuario, pero debe considerarse que es un ambiente de trabajo.
+
+Existen 3 botones en la parte superior del contenedor de código, para ejecutar el código, reiniciar el código inicial y copiar el código.
+
+<center>
+<img src="../images/botones.png">
+</center>
+
 
 ## 1. 👋 Hola Mundo
-El clásico primer programa en cualquier lenguaje de programación. Imprimiremos "Hola, Mundo" en la pantalla.
+Es tradición en cualquier lenguaje de programación comenzar haciendo que el computador imprimma la frase "Hola, Mundo" (o "Hello World") en la pantalla.
 
 ```{pyodide-python}
 print("Hola, Mundo")
 ```
+
+::: {.callout-tip collapse="false" title="Desafío:"}
+¿Cómo podrías hacer que en el código anterior te saludara con tu nombre? ¿Podrías cambiar el saludo?
+:::
+
+Podemos mejorar el código anterior utilizando **variables** que pueden entenderse como una caja con nombre donde puedes guardar algo, como un número, texto, o cualquier otro tipo de información. Usas un nombre para referirte a esta caja (la variable), lo que te permite acceder a lo que has guardado dentro de ella más adelante en tu programa. Puedes cambiar lo que está dentro de la caja en cualquier momento, simplemente guardando algo nuevo en ella.
+```{pyodide-python}
+saludo = "Hola "
+nombre = "Chile"
+print(saludo + nombre)
+```
+
+::: {.callout-tip collapse="false" title="Desafío:"}
+¿Qué significa el signo `+` en el ejemplo anterior? ¿Qué significan los simbolos `"`?
+:::
+
+Un principio fundamental de la programación es el deseo del programador de minimizar la cantidad de trabajo. 
+Si hay líneas de Python que se repite muchas veces en el programa, resulta conveniende "empaquetarlas" en una función de manera que el código sea más compacto y no tengamos que realizar cambios en varios lugares distintos.
+
+Así por ejemplo podemos reducir el código desde
+```{pyodide-python}
+saludo = "Hola "
+nombre = "DUOC"
+print(saludo + nombre)
+saludo = "Que tal "
+nombre = "Valparaíso"
+print(saludo + nombre)
+saludo = "Saludos "
+nombre = "Chile"
+print(saludo + nombre)
+```
+
+al siguiente código
+```{pyodide-python}
+# Comentario: esta es la función imprimir_saludo
+def imprimir_saludo(saludo, nombre):
+    print(saludo + " " + nombre)
+
+imprimir_saludo("Hola", "DUOC")
+imprimir_saludo("Que tal", "Valparaíso")
+imprimir_saludo("Saludos", "Chile")
+```
+
+En este ejemplo hemos revisado la función `print`, strings (cadenas de carácteres), variables y funciones.
+Python proporciona muchas [funciones adicionales para manipular strings](https://python-docs-es.readthedocs.io/es/3.12/library/stdtypes.html#str). ¿Que hacen las siguientes funciones?
+
+```{pyodide-python}
+mi_string = "¿HoLa Ke HaCe?"
+#print(mi_string)
+#print(mi_string.upper())
+#print(mi_string.lower())
+#print(mi_string.title())
+#print(mi_string.capitalize())
+#print(mi_string.swapcase())
+#print(mi_string.split())
+```
+
+Debes borrar el carácter `#` para que la línea deje de ser un comentario y se ejecute.
 
 ## 2. 🧮 Calculadora Básica
 Una simple calculadora que realiza operaciones básicas como suma, resta, multiplicación y división.

@@ -231,7 +231,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"options":{"comment":"","fig-cap":"","label":"","fig-height":5,"autorun":"","classes":"","context":"interactive","read-only":"false","output":"true","dpi":72,"fig-width":7,"warning":"true","results":"markup","message":"true","out-height":"","out-width":"700px"},"id":1,"code":"print(\"Hola, Mundo\")"},{"options":{"comment":"","fig-cap":"","label":"","fig-height":5,"autorun":"","classes":"","context":"interactive","read-only":"false","output":"true","dpi":72,"fig-width":7,"warning":"true","results":"markup","message":"true","out-height":"","out-width":"700px"},"id":2,"code":"def calculadora(operacion, num1, num2):\n    if operacion == '+':\n        return f\"Resultado: {num1 + num2}\"\n    elif operacion == '-':\n        return f\"Resultado: {num1 - num2}\"\n    elif operacion == '*':\n        return f\"Resultado: {num1 * num2}\"\n    elif operacion == '/':\n        if num2 != 0:\n            return f\"Resultado: {num1 / num2}\"\n        else:\n            return \"Error: División por cero\"\n    else:\n        return \"Operación no válida\"\n\n# Ejemplo de uso\noperacion = '+'\nnum1 = 10\nnum2 = 5\nresultado = calculadora(operacion, num1, num2)\nprint(resultado)"},{"options":{"comment":"","fig-cap":"","label":"","fig-height":5,"autorun":"","classes":"","context":"interactive","read-only":"false","output":"true","dpi":72,"fig-width":7,"warning":"true","results":"markup","message":"true","out-height":"","out-width":"700px"},"id":3,"code":"def es_bisiesto(anio):\n    if (anio % 4 == 0 and anio % 100 != 0) or (anio % 400 == 0):\n        return True\n    else:\n        return False\n\n# Ejemplo de uso\nanio = 2024\nif es_bisiesto(anio):\n    print(f\"{anio} es un año bisiesto\")\nelse:\n    print(f\"{anio} no es un año bisiesto\")"},{"options":{"comment":"","fig-cap":"","label":"","fig-height":5,"autorun":"","classes":"","context":"interactive","read-only":"false","output":"true","dpi":72,"fig-width":7,"warning":"true","results":"markup","message":"true","out-height":"","out-width":"700px"},"id":4,"code":"import random\n\ndef adivina_el_numero(numero_secreto, intentos_usuario):\n    intentos = 0\n    adivinado = False\n\n    for intento in intentos_usuario:\n        intentos += 1\n        if intento < numero_secreto:\n            print(\"Muy bajo\")\n        elif intento > numero_secreto:\n            print(\"Muy alto\")\n        else:\n            print(f\"¡Correcto! Adivinaste el número en {intentos} intentos.\")\n            adivinado = True\n            break\n\n    if not adivinado:\n        print(f\"No adivinaste el número en {len(intentos_usuario)} intentos. El número era {numero_secreto}.\")\n\n# Ejemplo de uso\nnumero_secreto = random.randint(1, 100)\nintentos_usuario = [50, 25, 75, 60, 90]\nadivina_el_numero(numero_secreto, intentos_usuario)"},{"options":{"comment":"","fig-cap":"","label":"","fig-height":5,"autorun":"","classes":"","context":"interactive","read-only":"false","output":"true","dpi":72,"fig-width":7,"warning":"true","results":"markup","message":"true","out-height":"","out-width":"700px"},"id":5,"code":"def conjetura_de_collatz(n):\n    resultado = []\n    while n != 1:\n        resultado.append(n)\n        if n % 2 == 0:\n            n = n // 2\n        else:\n            n = 3 * n + 1\n    resultado.append(n)\n    return resultado\n\n# Ejemplo de uso\nnumero = 6\nprint(\" -> \".join(map(str, conjetura_de_collatz(numero))))"},{"options":{"comment":"","fig-cap":"","label":"","fig-height":5,"autorun":"","classes":"","context":"interactive","read-only":"false","output":"true","dpi":72,"fig-width":7,"warning":"true","results":"markup","message":"true","out-height":"","out-width":"700px"},"id":6,"code":"def suma_numeros(n):\n    suma = 0\n    for i in range(1, n+1):\n        suma += i\n    return suma\n\n# Ejemplo de uso\nn = 10\nprint(f\"La suma de los números de 1 a {n} es: {suma_numeros(n)}\")"},{"options":{"comment":"","fig-cap":"","label":"","fig-height":5,"autorun":"","classes":"","context":"interactive","read-only":"false","output":"true","dpi":72,"fig-width":7,"warning":"true","results":"markup","message":"true","out-height":"","out-width":"700px"},"id":7,"code":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n\n# Ejemplo de uso\nn = 5\nprint(f\"El factorial de {n} es: {factorial(n)}\")"},{"options":{"comment":"","fig-cap":"","label":"","fig-height":5,"autorun":"","classes":"","context":"interactive","read-only":"false","output":"true","dpi":72,"fig-width":7,"warning":"true","results":"markup","message":"true","out-height":"","out-width":"700px"},"id":8,"code":"def celsius_a_fahrenheit(celsius):\n    return (celsius * 9/5) + 32\n\n# Ejemplo de uso\ncelsius = 25\nprint(f\"{celsius} grados Celsius son {celsius_a_fahrenheit(celsius)} grados Fahrenheit\")"},{"options":{"comment":"","fig-cap":"","label":"","fig-height":5,"autorun":"","classes":"","context":"interactive","read-only":"false","output":"true","dpi":72,"fig-width":7,"warning":"true","results":"markup","message":"true","out-height":"","out-width":"700px"},"id":9,"code":"def calcular_imc(peso, altura):\n    return peso / (altura ** 2)\n\n# Ejemplo de uso\npeso = 70  # kg\naltura = 1.75  # m\nprint(f\"El IMC es: {calcular_imc(peso, altura):.2f}\")"},{"options":{"comment":"","fig-cap":"","label":"","fig-height":5,"autorun":"","classes":"","context":"interactive","read-only":"false","output":"true","dpi":72,"fig-width":7,"warning":"true","results":"markup","message":"true","out-height":"","out-width":"700px"},"id":10,"code":"def es_primo(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\n# Ejemplo de uso\nnumero = 29\nif es_primo(numero):\n    print(f\"{numero} es un número primo\")\nelse:\n    print(f\"{numero} no es un número primo\")"}];
+globalThis.qpyodideCellDetails = [{"options":{"message":"true","warning":"true","results":"markup","classes":"","read-only":"false","fig-height":5,"comment":"","output":"true","fig-width":7,"label":"","dpi":72,"autorun":"","context":"interactive","out-width":"700px","fig-cap":"","out-height":""},"id":1,"code":"print(\"Hola, Mundo\")"},{"options":{"message":"true","warning":"true","results":"markup","classes":"","read-only":"false","fig-height":5,"comment":"","output":"true","fig-width":7,"label":"","dpi":72,"autorun":"","context":"interactive","out-width":"700px","fig-cap":"","out-height":""},"id":2,"code":"saludo = \"Hola \"\nnombre = \"Chile\"\nprint(saludo + nombre)"},{"options":{"message":"true","warning":"true","results":"markup","classes":"","read-only":"false","fig-height":5,"comment":"","output":"true","fig-width":7,"label":"","dpi":72,"autorun":"","context":"interactive","out-width":"700px","fig-cap":"","out-height":""},"id":3,"code":"saludo = \"Hola \"\nnombre = \"DUOC\"\nprint(saludo + nombre)\nsaludo = \"Que tal \"\nnombre = \"Valparaíso\"\nprint(saludo + nombre)\nsaludo = \"Saludos \"\nnombre = \"Chile\"\nprint(saludo + nombre)"},{"options":{"message":"true","warning":"true","results":"markup","classes":"","read-only":"false","fig-height":5,"comment":"","output":"true","fig-width":7,"label":"","dpi":72,"autorun":"","context":"interactive","out-width":"700px","fig-cap":"","out-height":""},"id":4,"code":"# Comentario: esta es la función imprimir_saludo\ndef imprimir_saludo(saludo, nombre):\n    print(saludo + \" \" + nombre)\n\nimprimir_saludo(\"Hola\", \"DUOC\")\nimprimir_saludo(\"Que tal\", \"Valparaíso\")\nimprimir_saludo(\"Saludos\", \"Chile\")"},{"options":{"message":"true","warning":"true","results":"markup","classes":"","read-only":"false","fig-height":5,"comment":"","output":"true","fig-width":7,"label":"","dpi":72,"autorun":"","context":"interactive","out-width":"700px","fig-cap":"","out-height":""},"id":5,"code":"mi_string = \"¿HoLa Ke HaCe?\"\n#print(mi_string)\n#print(mi_string.upper())\n#print(mi_string.lower())\n#print(mi_string.title())\n#print(mi_string.capitalize())\n#print(mi_string.swapcase())\n#print(mi_string.split())"},{"options":{"message":"true","warning":"true","results":"markup","classes":"","read-only":"false","fig-height":5,"comment":"","output":"true","fig-width":7,"label":"","dpi":72,"autorun":"","context":"interactive","out-width":"700px","fig-cap":"","out-height":""},"id":6,"code":"def calculadora(operacion, num1, num2):\n    if operacion == '+':\n        return f\"Resultado: {num1 + num2}\"\n    elif operacion == '-':\n        return f\"Resultado: {num1 - num2}\"\n    elif operacion == '*':\n        return f\"Resultado: {num1 * num2}\"\n    elif operacion == '/':\n        if num2 != 0:\n            return f\"Resultado: {num1 / num2}\"\n        else:\n            return \"Error: División por cero\"\n    else:\n        return \"Operación no válida\"\n\n# Ejemplo de uso\noperacion = '+'\nnum1 = 10\nnum2 = 5\nresultado = calculadora(operacion, num1, num2)\nprint(resultado)"},{"options":{"message":"true","warning":"true","results":"markup","classes":"","read-only":"false","fig-height":5,"comment":"","output":"true","fig-width":7,"label":"","dpi":72,"autorun":"","context":"interactive","out-width":"700px","fig-cap":"","out-height":""},"id":7,"code":"def es_bisiesto(anio):\n    if (anio % 4 == 0 and anio % 100 != 0) or (anio % 400 == 0):\n        return True\n    else:\n        return False\n\n# Ejemplo de uso\nanio = 2024\nif es_bisiesto(anio):\n    print(f\"{anio} es un año bisiesto\")\nelse:\n    print(f\"{anio} no es un año bisiesto\")"},{"options":{"message":"true","warning":"true","results":"markup","classes":"","read-only":"false","fig-height":5,"comment":"","output":"true","fig-width":7,"label":"","dpi":72,"autorun":"","context":"interactive","out-width":"700px","fig-cap":"","out-height":""},"id":8,"code":"import random\n\ndef adivina_el_numero(numero_secreto, intentos_usuario):\n    intentos = 0\n    adivinado = False\n\n    for intento in intentos_usuario:\n        intentos += 1\n        if intento < numero_secreto:\n            print(\"Muy bajo\")\n        elif intento > numero_secreto:\n            print(\"Muy alto\")\n        else:\n            print(f\"¡Correcto! Adivinaste el número en {intentos} intentos.\")\n            adivinado = True\n            break\n\n    if not adivinado:\n        print(f\"No adivinaste el número en {len(intentos_usuario)} intentos. El número era {numero_secreto}.\")\n\n# Ejemplo de uso\nnumero_secreto = random.randint(1, 100)\nintentos_usuario = [50, 25, 75, 60, 90]\nadivina_el_numero(numero_secreto, intentos_usuario)"},{"options":{"message":"true","warning":"true","results":"markup","classes":"","read-only":"false","fig-height":5,"comment":"","output":"true","fig-width":7,"label":"","dpi":72,"autorun":"","context":"interactive","out-width":"700px","fig-cap":"","out-height":""},"id":9,"code":"def conjetura_de_collatz(n):\n    resultado = []\n    while n != 1:\n        resultado.append(n)\n        if n % 2 == 0:\n            n = n // 2\n        else:\n            n = 3 * n + 1\n    resultado.append(n)\n    return resultado\n\n# Ejemplo de uso\nnumero = 6\nprint(\" -> \".join(map(str, conjetura_de_collatz(numero))))"},{"options":{"message":"true","warning":"true","results":"markup","classes":"","read-only":"false","fig-height":5,"comment":"","output":"true","fig-width":7,"label":"","dpi":72,"autorun":"","context":"interactive","out-width":"700px","fig-cap":"","out-height":""},"id":10,"code":"def suma_numeros(n):\n    suma = 0\n    for i in range(1, n+1):\n        suma += i\n    return suma\n\n# Ejemplo de uso\nn = 10\nprint(f\"La suma de los números de 1 a {n} es: {suma_numeros(n)}\")"},{"options":{"message":"true","warning":"true","results":"markup","classes":"","read-only":"false","fig-height":5,"comment":"","output":"true","fig-width":7,"label":"","dpi":72,"autorun":"","context":"interactive","out-width":"700px","fig-cap":"","out-height":""},"id":11,"code":"def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n\n# Ejemplo de uso\nn = 5\nprint(f\"El factorial de {n} es: {factorial(n)}\")"},{"options":{"message":"true","warning":"true","results":"markup","classes":"","read-only":"false","fig-height":5,"comment":"","output":"true","fig-width":7,"label":"","dpi":72,"autorun":"","context":"interactive","out-width":"700px","fig-cap":"","out-height":""},"id":12,"code":"def celsius_a_fahrenheit(celsius):\n    return (celsius * 9/5) + 32\n\n# Ejemplo de uso\ncelsius = 25\nprint(f\"{celsius} grados Celsius son {celsius_a_fahrenheit(celsius)} grados Fahrenheit\")"},{"options":{"message":"true","warning":"true","results":"markup","classes":"","read-only":"false","fig-height":5,"comment":"","output":"true","fig-width":7,"label":"","dpi":72,"autorun":"","context":"interactive","out-width":"700px","fig-cap":"","out-height":""},"id":13,"code":"def calcular_imc(peso, altura):\n    return peso / (altura ** 2)\n\n# Ejemplo de uso\npeso = 70  # kg\naltura = 1.75  # m\nprint(f\"El IMC es: {calcular_imc(peso, altura):.2f}\")"},{"options":{"message":"true","warning":"true","results":"markup","classes":"","read-only":"false","fig-height":5,"comment":"","output":"true","fig-width":7,"label":"","dpi":72,"autorun":"","context":"interactive","out-width":"700px","fig-cap":"","out-height":""},"id":14,"code":"def es_primo(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n ** 0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\n# Ejemplo de uso\nnumero = 29\nif es_primo(numero):\n    print(f\"{numero} es un número primo\")\nelse:\n    print(f\"{numero} no es un número primo\")"}];
 
 
 </script>
@@ -461,7 +461,7 @@ globalThis._qpyodideGetInstance = function() {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Inicio</span></a>
+  <a href="../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Programa de actividades</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -575,63 +575,124 @@ globalThis._qpyodideGetInstance = function() {
 </header>
 
 
-<p>En este taller, nos enfocaremos en aprender los conceptos básicos de Python de una manera divertida e interactiva.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<p>En este taller, nos enfocaremos en ilustrar algunos conceptos básicos de Python mediante distintos ejemplos.</p>
+<section id="programación" class="level2">
+<h2 class="anchored" data-anchor-id="programación">Programación</h2>
+<p>Si tuviéramos que resumir el propósito de la programación en una frase, sería:</p>
+<blockquote class="blockquote">
+<p>“Automatizar tareas para que la computadora las realice por nosotros.</p>
+</blockquote>
+<p>Cualquier labor tediosa y repetitiva debería ser delegada a una computadora, permitiendo así que los humanos se enfoquen en los problemas verdaderamente interesantes: aquellos que demandan creatividad, pensamiento crítico y subjetividad.</p>
+<blockquote class="blockquote">
+<p>“Se dice que uno no comprende verdaderamente algo hasta que puede explicárselo a otro. En realidad, uno no lo entiende completamente hasta que puede explicárselo a una computadora.” – Donald Knuth</p>
+</blockquote>
+<p>La programación es la forma en la cual podemos detallarle a una computadora el paso a paso que queremos que realice. ¡Cuando una computadora no hace lo que queríamos, es porque no logramos explicitarlo de manera adecuada!</p>
+</section>
+<section id="python" class="level2">
+<h2 class="anchored" data-anchor-id="python">Python</h2>
+<p>Python es un lenguaje de programación que ha crecido en popularidad debido a 3 razones principales:</p>
+<ol type="1">
+<li>Es fácil de entender: un programa bien escrito se parece mucho al inglés.</li>
+<li>Posee muchas librerías por defecto: toda instalación de python viene con librerías para un amplio tipo de aplicaciones (math, random, os, sys, time, datetime, etc.)</li>
+<li>Es extensible:</li>
+</ol>
+</section>
+<section id="ejecutándo-código-python" class="level2">
+<h2 class="anchored" data-anchor-id="ejecutándo-código-python">Ejecutándo código Python</h2>
+<p>Para utilizar Python en una computadora, es necesario: 1. Tener instalada alguna versión de Python 2. Escribir tu programa en un archivo (por ejemplo “mi_programa.py”) 3. Ejecutar el programa con Python (“python mi_programa.py”)</p>
+<p>A medida que Python se fue haciendo más popular, aparecieron otras alternativas de uso como los notebooks (Jupyter Nobooks, Google Colab y otros).</p>
+<p>Por simplicidad, en la PySchool utilizaremos una tecnología reciente que permite <em>emular</em> la ejecución de Python en una página web. Esto es práctico pues esta página puede ser utilizada en cualquier dispositivo conectado a internet y no requiere instalaciones adicionales por parte del usuario, pero debe considerarse que es un ambiente de trabajo.</p>
+<p>Existen 3 botones en la parte superior del contenedor de código, para ejecutar el código, reiniciar el código inicial y copiar el código.</p>
+<center>
+<img src="../images/botones.png">
+</center>
+</section>
+<section id="hola-mundo" class="level2">
+<h2 class="anchored" data-anchor-id="hola-mundo">1. 👋 Hola Mundo</h2>
+<p>Es tradición en cualquier lenguaje de programación comenzar haciendo que el computador imprimma la frase “Hola, Mundo” (o “Hello World”) en la pantalla.</p>
+<div id="qpyodide-insertion-location-1"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Nota para Talleristas
+Desafío:
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>Este es un ejemplo de nota para Cristian Lopez.</p>
+<p>¿Cómo podrías hacer que en el código anterior te saludara con tu nombre? ¿Podrías cambiar el saludo?</p>
 </div>
 </div>
 </div>
-<section id="hola-mundo" class="level2">
-<h2 class="anchored" data-anchor-id="hola-mundo">1. 👋 Hola Mundo</h2>
-<p>El clásico primer programa en cualquier lenguaje de programación. Imprimiremos “Hola, Mundo” en la pantalla.</p>
-<div id="qpyodide-insertion-location-1"></div>
+<p>Podemos mejorar el código anterior utilizando <strong>variables</strong> que pueden entenderse como una caja con nombre donde puedes guardar algo, como un número, texto, o cualquier otro tipo de información. Usas un nombre para referirte a esta caja (la variable), lo que te permite acceder a lo que has guardado dentro de ella más adelante en tu programa. Puedes cambiar lo que está dentro de la caja en cualquier momento, simplemente guardando algo nuevo en ella.</p>
+<div id="qpyodide-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>¿Qué significa el signo <code>+</code> en el ejemplo anterior? ¿Qué significan los simbolos <code>"</code>?</p>
+</div>
+</div>
+</div>
+<p>Un principio fundamental de la programación es el deseo del programador de minimizar la cantidad de trabajo. Si hay líneas de Python que se repite muchas veces en el programa, resulta conveniende “empaquetarlas” en una función de manera que el código sea más compacto y no tengamos que realizar cambios en varios lugares distintos.</p>
+<p>Así por ejemplo podemos reducir el código desde</p>
+<div id="qpyodide-insertion-location-3"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>al siguiente código</p>
+<div id="qpyodide-insertion-location-4"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>En este ejemplo hemos revisado la función <code>print</code>, strings (cadenas de carácteres), variables y funciones. Python proporciona muchas <a href="https://python-docs-es.readthedocs.io/es/3.12/library/stdtypes.html#str">funciones adicionales para manipular strings</a>. ¿Que hacen las siguientes funciones?</p>
+<div id="qpyodide-insertion-location-5"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>Debes borrar el carácter <code>#</code> para que la línea deje de ser un comentario y se ejecute.</p>
 </section>
 <section id="calculadora-básica" class="level2">
 <h2 class="anchored" data-anchor-id="calculadora-básica">2. 🧮 Calculadora Básica</h2>
 <p>Una simple calculadora que realiza operaciones básicas como suma, resta, multiplicación y división.</p>
-<div id="qpyodide-insertion-location-2"></div>
+<div id="qpyodide-insertion-location-6"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="verificación-de-año-bisiesto" class="level2">
 <h2 class="anchored" data-anchor-id="verificación-de-año-bisiesto">3. 📅 Verificación de Año Bisiesto</h2>
 <p>Un programa para determinar si un año es bisiesto.</p>
-<div id="qpyodide-insertion-location-3"></div>
+<div id="qpyodide-insertion-location-7"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="adivina-el-número" class="level2">
 <h2 class="anchored" data-anchor-id="adivina-el-número">4. 🔢 Adivina el Número</h2>
 <p>Un juego donde la computadora elige un número al azar y el usuario intenta adivinarlo.</p>
-<div id="qpyodide-insertion-location-4"></div>
+<div id="qpyodide-insertion-location-8"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="conjetura-de-collatz" class="level2">
 <h2 class="anchored" data-anchor-id="conjetura-de-collatz">5. 📜 Conjetura de Collatz</h2>
 <p>Un programa que implementa la Conjetura de Collatz, también conocida como la conjetura 3n + 1.</p>
-<div id="qpyodide-insertion-location-5"></div>
+<div id="qpyodide-insertion-location-9"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="ejercicios-de-aritmética" class="level2">
 <h2 class="anchored" data-anchor-id="ejercicios-de-aritmética">6. ➕ Ejercicios de Aritmética</h2>
 <section id="suma-de-números" class="level3">
 <h3 class="anchored" data-anchor-id="suma-de-números">Suma de Números</h3>
-<div id="qpyodide-insertion-location-6"></div>
+<div id="qpyodide-insertion-location-10"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="factorial-de-un-número" class="level3">
 <h3 class="anchored" data-anchor-id="factorial-de-un-número">Factorial de un Número</h3>
-<div id="qpyodide-insertion-location-7"></div>
+<div id="qpyodide-insertion-location-11"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 </section>
@@ -640,19 +701,19 @@ Nota para Talleristas
 <section id="conversión-de-temperatura" class="level3">
 <h3 class="anchored" data-anchor-id="conversión-de-temperatura">Conversión de Temperatura</h3>
 <p>Un programa para convertir grados Celsius a Fahrenheit.</p>
-<div id="qpyodide-insertion-location-8"></div>
+<div id="qpyodide-insertion-location-12"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="cálculo-del-índice-de-masa-corporal-imc" class="level3">
 <h3 class="anchored" data-anchor-id="cálculo-del-índice-de-masa-corporal-imc">Cálculo del Índice de Masa Corporal (IMC)</h3>
 <p>Un programa para calcular el IMC de una persona.</p>
-<div id="qpyodide-insertion-location-9"></div>
+<div id="qpyodide-insertion-location-13"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
 <section id="número-primo" class="level3">
 <h3 class="anchored" data-anchor-id="número-primo">Número Primo</h3>
 <p>Un programa para verificar si un número es primo.</p>
-<div id="qpyodide-insertion-location-10"></div>
+<div id="qpyodide-insertion-location-14"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
 
@@ -1071,8 +1132,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation column-page-right">
   <div class="nav-page nav-page-previous">
-      <a href="../index.html" class="pagination-link" aria-label="Inicio">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Inicio</span></span>
+      <a href="../index.html" class="pagination-link" aria-label="Programa de actividades">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Programa de actividades</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

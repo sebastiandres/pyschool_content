@@ -4,19 +4,19 @@
     "href": "index.html",
     "title": "PySchool",
     "section": "",
-    "text": "Inicio\nEste espacio ha sido creado con el objetivo de motivar a los estudiantes a conocer y aprender el lenguaje de programación Python. Dentro de este repositorio, encontrarás ejemplos autocontenidos que te ayudarán a entender y practicar los conceptos fundamentales de Python.\nPySchool es una iniciativa de la organización Python Chile y DUOC. Nuestro objetivo es proporcionar a la comunidad los recursos necesarios para aprender y mejorar sus habilidades en Python.\nLa PySchool tendrá lugar el viernes 2 de Agosto, en DUOC Sede Valparaíso, para alumnos invitados de distintos colegios de la V Región. Sin embargo, el material está disponible en línea para que cualquier interesado pueda participar.",
+    "text": "Programa de actividades\nEl taller 1 será común para todos: Introducción a Python.\nEl taller 2 puede ser de Python en Ciencias o Python en Ciencia de Datos, según hayan elegido.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Inicio</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Programa de actividades</span>"
     ]
   },
   {
     "objectID": "index.html#programa-de-actividades",
     "href": "index.html#programa-de-actividades",
     "title": "PySchool",
-    "section": "Programa de actividades",
-    "text": "Programa de actividades\n\n\n\nInicio\nFin\nActividad\n\n\n\n\n9:00\n9:30\nAcreditación\n\n\n9:30\n10:15\nBienvenida y panel pythonistas\n\n\n10:30\n11:30\nTaller 1\n\n\n12:00\n13:00\nTaller 2\n\n\n13:00\n1:30\nCierre\n\n\n\nEl taller 1 será común para todos: Introducción a Python.\nEl taller 2 puede ser de Python en Ciencias o Python en Ciencia de Datos, según hayan elegido.",
+    "section": "",
+    "text": "Inicio\nFin\nActividad\n\n\n\n\n9:00\n9:30\nAcreditación\n\n\n9:30\n10:15\nBienvenida y panel pythonistas\n\n\n10:30\n11:30\nTaller 1\n\n\n12:00\n13:00\nTaller 2\n\n\n13:00\n1:30\nCierre",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Inicio</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Programa de actividades</span>"
     ]
   },
   {
@@ -24,7 +24,40 @@
     "href": "talleres/taller_1.html",
     "title": "Introducción a Python",
     "section": "",
-    "text": "1. 👋 Hola Mundo\nEl clásico primer programa en cualquier lenguaje de programación. Imprimiremos “Hola, Mundo” en la pantalla.",
+    "text": "Programación\nSi tuviéramos que resumir el propósito de la programación en una frase, sería:\nCualquier labor tediosa y repetitiva debería ser delegada a una computadora, permitiendo así que los humanos se enfoquen en los problemas verdaderamente interesantes: aquellos que demandan creatividad, pensamiento crítico y subjetividad.\nLa programación es la forma en la cual podemos detallarle a una computadora el paso a paso que queremos que realice. ¡Cuando una computadora no hace lo que queríamos, es porque no logramos explicitarlo de manera adecuada!",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a Python</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_1.html#programación",
+    "href": "talleres/taller_1.html#programación",
+    "title": "Introducción a Python",
+    "section": "",
+    "text": "“Automatizar tareas para que la computadora las realice por nosotros.\n\n\n\n“Se dice que uno no comprende verdaderamente algo hasta que puede explicárselo a otro. En realidad, uno no lo entiende completamente hasta que puede explicárselo a una computadora.” – Donald Knuth",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a Python</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_1.html#python",
+    "href": "talleres/taller_1.html#python",
+    "title": "Introducción a Python",
+    "section": "Python",
+    "text": "Python\nPython es un lenguaje de programación que ha crecido en popularidad debido a 3 razones principales:\n\nEs fácil de entender: un programa bien escrito se parece mucho al inglés.\nPosee muchas librerías por defecto: toda instalación de python viene con librerías para un amplio tipo de aplicaciones (math, random, os, sys, time, datetime, etc.)\nEs extensible:",
+    "crumbs": [
+      "Talleres",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a Python</span>"
+    ]
+  },
+  {
+    "objectID": "talleres/taller_1.html#ejecutándo-código-python",
+    "href": "talleres/taller_1.html#ejecutándo-código-python",
+    "title": "Introducción a Python",
+    "section": "Ejecutándo código Python",
+    "text": "Ejecutándo código Python\nPara utilizar Python en una computadora, es necesario: 1. Tener instalada alguna versión de Python 2. Escribir tu programa en un archivo (por ejemplo “mi_programa.py”) 3. Ejecutar el programa con Python (“python mi_programa.py”)\nA medida que Python se fue haciendo más popular, aparecieron otras alternativas de uso como los notebooks (Jupyter Nobooks, Google Colab y otros).\nPor simplicidad, en la PySchool utilizaremos una tecnología reciente que permite emular la ejecución de Python en una página web. Esto es práctico pues esta página puede ser utilizada en cualquier dispositivo conectado a internet y no requiere instalaciones adicionales por parte del usuario, pero debe considerarse que es un ambiente de trabajo.\nExisten 3 botones en la parte superior del contenedor de código, para ejecutar el código, reiniciar el código inicial y copiar el código.",
     "crumbs": [
       "Talleres",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a Python</span>"
@@ -34,8 +67,8 @@
     "objectID": "talleres/taller_1.html#hola-mundo",
     "href": "talleres/taller_1.html#hola-mundo",
     "title": "Introducción a Python",
-    "section": "",
-    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
+    "section": "1. 👋 Hola Mundo",
+    "text": "1. 👋 Hola Mundo\nEs tradición en cualquier lenguaje de programación comenzar haciendo que el computador imprimma la frase “Hola, Mundo” (o “Hello World”) en la pantalla.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\n¿Cómo podrías hacer que en el código anterior te saludara con tu nombre? ¿Podrías cambiar el saludo?\n\n\n\nPodemos mejorar el código anterior utilizando variables que pueden entenderse como una caja con nombre donde puedes guardar algo, como un número, texto, o cualquier otro tipo de información. Usas un nombre para referirte a esta caja (la variable), lo que te permite acceder a lo que has guardado dentro de ella más adelante en tu programa. Puedes cambiar lo que está dentro de la caja en cualquier momento, simplemente guardando algo nuevo en ella.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n\nDesafío:\n\n\n\n\n\n¿Qué significa el signo + en el ejemplo anterior? ¿Qué significan los simbolos \"?\n\n\n\nUn principio fundamental de la programación es el deseo del programador de minimizar la cantidad de trabajo. Si hay líneas de Python que se repite muchas veces en el programa, resulta conveniende “empaquetarlas” en una función de manera que el código sea más compacto y no tengamos que realizar cambios en varios lugares distintos.\nAsí por ejemplo podemos reducir el código desde\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nal siguiente código\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nEn este ejemplo hemos revisado la función print, strings (cadenas de carácteres), variables y funciones. Python proporciona muchas funciones adicionales para manipular strings. ¿Que hacen las siguientes funciones?\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nDebes borrar el carácter # para que la línea deje de ser un comentario y se ejecute.",
     "crumbs": [
       "Talleres",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a Python</span>"

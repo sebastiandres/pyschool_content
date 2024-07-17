@@ -4,8 +4,6 @@ project:
   
 book:
   title: "PySchool"
-  author: "Python Chile"
-  date: "08/02/2024"
   favicon: "images/pc.png"
   chapters:
     - index.qmd
@@ -34,9 +32,6 @@ format:
     number-sections: false
     toc: false
     page-layout: full
-  epub:
-    cover-image: images/cover.png
-
 
 filters: 
   - pyodide
