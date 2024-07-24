@@ -11,7 +11,7 @@ PySchool es una iniciativa de la organización Python Chile y DUOC. Nuestro obje
 <img src="./images/DUOC_1.png" width="300">
 </center>
 
-La PySchool tendrá lugar el viernes 2 de Agosto, en DUOC Sede Valparaíso, para alumnos invitados de distintos colegios de la V Región. Sin embargo, el material está disponible en línea para que cualquier interesado pueda participar.
+La PySchool tendrá lugar el viernes 2 de agosto, en DUOC Sede Valparaíso, para alumnos invitados de distintos colegios de la V Región. Sin embargo, el material está disponible en línea para que cualquier interesado pueda participar.
 
 ## Programa de actividades
 
@@ -21,7 +21,7 @@ La PySchool tendrá lugar el viernes 2 de Agosto, en DUOC Sede Valparaíso, para
 | 9:30   | 10:15| Bienvenida y panel pythonistas |
 | 10:30  | 11:30| Taller 1                 |
 | 12:00  | 13:00| Taller 2                 |
-| 13:00  | 1:30 | Cierre                   |
+| 13:00  | 13:30 | Cierre                   |
 
 El taller 1 será común para todos: [Introducción a Python](./talleres/taller_1.html).
 

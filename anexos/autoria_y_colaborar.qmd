@@ -1,6 +1,6 @@
 # 📜 Autoría
 
-Este proyecto está protegido por los derechos de autor de Python Chile. Los contribuyentes principales son Francisco Alfaro y Sebastián Flores, quienes han desempeñado un papel fundamental en su desarrollo y mantenimiento.
+Este proyecto está protegido por los derechos de autor de Python Chile. Los principales contribuyentes son Francisco Alfaro y Sebastián Flores, quienes han desempeñado un papel fundamental en su desarrollo y mantenimiento.
 
 ## Reconocimientos Adicionales
 
